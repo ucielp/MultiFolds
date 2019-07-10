@@ -5,7 +5,8 @@ if [ $# -gt 2 ]; then
 	window=$2
 	step=$3
 else
-	echo "Please include molecule name, window size and step size"
+	echo "Please include molecule name, window size and step size
+/Rsample_all.sh PRC2_mHotair 180 60 > PRC2_mHotair.out 2> PRC2_mHotair.error"
 	exit 1
 fi
 
@@ -17,11 +18,12 @@ myPATH=$mainPATH/projects/MULTI-FOLDS/scratch/sliding_windows
 
 cd $myPATH
 
-mkdir $mol_name/; mkdir $mol_name/seq/; mkdir $mol_name/tab; mkdir $mol_name/res; mkdir $mol_name/final
+dir_name=$mol_name"_"$window"_"$step
+mkdir $dir_name/; mkdir $dir_name/seq/; mkdir $dir_name/tab; mkdir $dir_name/res; mkdir $dir_name/final
 
 #~ # OPTION 1
-#~ cp $programPATH/nextPARS/data/$mol_name/* $mol_name/tab/.
-#~ cp $programPATH/nextPARS/data/SEQS/PROBES/$mol_name.fa $mol_name/seq/.
+#~ # cp $programPATH/nextPARS/data/$mol_name/* $mol_name/tab/.
+#~ # cp $programPATH/nextPARS/data/SEQS/PROBES/$mol_name.fa $mol_name/seq/.
 
 #~ # OPTION 2
 cd $tg_path/tgabaldon/PROJECTS/NONCODEVOL/DATA/TAB_FILES/our_data/c_glabrata/2015-01-09
