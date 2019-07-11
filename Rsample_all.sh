@@ -14,7 +14,7 @@ mainPATH=/home/uchorostecki/lab/uchorostecki
 programPATH=/home/uchorostecki/lab/programs
 
 tg_path=/home/uchorostecki/users/tg
-myPATH=$mainPATH/projects/MULTI-FOLDS/scratch/sliding_windows
+myPATH=$mainPATH/projects/MULTI-FOLDS/multiple_conformations
 
 cd $myPATH
 
@@ -27,14 +27,14 @@ mkdir $dir_name/; mkdir $dir_name/seq/; mkdir $dir_name/tab; mkdir $dir_name/res
 
 #~ # OPTION 2
 cd $tg_path/tgabaldon/PROJECTS/NONCODEVOL/DATA/TAB_FILES/our_data/c_glabrata/2015-01-09
-grep $mol_name PolyA-2015-01-09a_V1.tab_temp > $myPATH/$mol_name/tab/PolyA-2015-01-09a_V1.tab
-grep $mol_name PolyA-2015-01-09b_S1.tab_temp > $myPATH/$mol_name/tab/PolyA-2015-01-09b_S1.tab
-grep $mol_name PolyA-2015-01-09c_V1.tab_temp > $myPATH/$mol_name/tab/PolyA-2015-01-09c_V1.tab
-grep $mol_name PolyA-2015-01-09d_S1.tab_temp > $myPATH/$mol_name/tab/PolyA-2015-01-09d_S1.tab
+grep $mol_name PolyA-2015-01-09a_V1.tab_temp > $myPATH/$dir_name/tab/PolyA-2015-01-09a_V1.tab
+grep $mol_name PolyA-2015-01-09b_S1.tab_temp > $myPATH/$dir_name/tab/PolyA-2015-01-09b_S1.tab
+grep $mol_name PolyA-2015-01-09c_V1.tab_temp > $myPATH/$dir_name/tab/PolyA-2015-01-09c_V1.tab
+grep $mol_name PolyA-2015-01-09d_S1.tab_temp > $myPATH/$dir_name/tab/PolyA-2015-01-09d_S1.tab
 
 cd $tg_path/tgabaldon/PROJECTS/NONCODEVOL/DATA/SEQS/GENOMES/C_GLABRATA
 myvar=$mol_name
-awk -v myvar="$myvar" '/^>/ { p = ($0 ~ /'$myvar'/)} p' C_glabrata_CBS138_current_chromosomes.fasta > $myPATH/$mol_name/seq/$mol_name.fa
+awk -v myvar="$myvar" '/^>/ { p = ($0 ~ /'$myvar'/)} p' C_glabrata_CBS138_current_chromosomes.fasta > $myPATH/$dir_name/seq/$mol_name.fa
 
 
 #####################################
@@ -46,15 +46,15 @@ cd $programPATH/nextPARS/bin
 
 # Check 
 # sudo python2.7 -m pip install argparse numpy biopython datetime pysam termcolor pandas keras tensorflow dask h5py
-time python2.7  get_combined_score.py \
+time python  get_combined_score.py \
 	-i $mol_name \
-	-inDir $myPATH/$mol_name/tab \
-	-f $myPATH/$mol_name/seq/$mol_name.fa \
-	--nP_only $myPATH/$mol_name/res/$mol_name.RNN_NP_ONLY.csv 
+	-inDir $myPATH/$dir_name/tab \
+	-f $myPATH/$dir_name/seq/$mol_name.fa \
+	--nP_only $myPATH/$dir_name/res/$mol_name.RNN_NP_ONLY.csv 
 
 
 # En el mismo directorio donde tengo esto *.RNN_NP_ONLY.csv muevo el que no tiene el clasificador (para tenerlo a mano)
-mv $programPATH/nextPARS/bin/$mol_name.RNN.tab $myPATH/$mol_name/res/$mol_name.RNN.tab
+mv $programPATH/nextPARS/bin/$mol_name.RNN.tab $myPATH/$dir_name/res/$mol_name.RNN.tab
 
 #####################################
 #######   sliding windows  ##########
@@ -62,12 +62,12 @@ mv $programPATH/nextPARS/bin/$mol_name.RNN.tab $myPATH/$mol_name/res/$mol_name.R
 
 # TODO: # Corregir el nombre de la ventana, porque le pone nombre hasta el final pero debería ser hasta casi el final
 		
-cd $myPATH/$mol_name/seq
+cd $myPATH/$dir_name/seq
 python $mainPATH/projects/MULTI-FOLDS/scripts/sliding_windows.py -i $mol_name.fa -w $window -s $step
 
-mv $myPATH/$mol_name/seq/$mol_name.outfile $myPATH/$mol_name/res/$mol_name.fa
+mv $myPATH/$dir_name/seq/$mol_name.outfile $myPATH/$dir_name/res/$mol_name.fa
 
-cd $myPATH/$mol_name/res
+cd $myPATH/$dir_name/res
 python $mainPATH/projects/MULTI-FOLDS/scripts/sliding_windows_nextPARSE_score.py -i $mol_name.RNN_NP_ONLY.csv -w $window -s $step
 
 
@@ -75,10 +75,10 @@ python $mainPATH/projects/MULTI-FOLDS/scripts/sliding_windows_nextPARSE_score.py
 #######   linear mapping  ##########
 #####################################
 
-cd $myPATH/$mol_name/res
+cd $myPATH/$dir_name/res
 
 time python $mainPATH/projects/MULTI-FOLDS/scripts/linear_mapping.py \
-	--path $myPATH/$mol_name/res
+	--path $myPATH/$dir_name/res
 
 while read line
 do
@@ -98,7 +98,7 @@ split -l $window $mol_name.SHAPE splited_
 a=0
 b=$window
 
-for splited_file in $(ls $myPATH/$mol_name/res/splited_* ); do
+for splited_file in $(ls $myPATH/$dir_name/res/splited_* ); do
 	
 
 	new_splited_file="$mol_name"_"$a"_"$b".SHAPE
@@ -110,10 +110,10 @@ for splited_file in $(ls $myPATH/$mol_name/res/splited_* ); do
 done;
 
 
-cd $myPATH/$mol_name/res
+cd $myPATH/$dir_name/res
 
-mv $myPATH/$mol_name/res/*\_*.SHAPE ../final/.
-mv $myPATH/$mol_name/res/*\_*.fa ../final/.
+mv $myPATH/$dir_name/res/*\_*.SHAPE ../final/.
+mv $myPATH/$dir_name/res/*\_*.fa ../final/.
 
 
 
@@ -123,7 +123,7 @@ mv $myPATH/$mol_name/res/*\_*.fa ../final/.
 
 cd $programPATH/RNAstructure/exe
 	
-for shape_file in $(ls $myPATH/$mol_name/final/*SHAPE ); do
+for shape_file in $(ls $myPATH/$dir_name/final/*SHAPE ); do
 
 	cd $programPATH/RNAstructure/exe
 
@@ -142,7 +142,7 @@ for shape_file in $(ls $myPATH/$mol_name/final/*SHAPE ); do
 		$path\/$filename.out \
 		$path\/$filename.ct
 	
-	cd $myPATH/$mol_name/final
-	time Rscript --vanilla ~/lab/programs/RNAstructure/manual/Text/resources/RsampleCluster.R $filename.ct
+	cd $myPATH/$dir_name/final
+	time Rscript --vanilla $programPATH/RNAstructure/manual/Text/resources/RsampleCluster.R $filename.ct
 
 done;
