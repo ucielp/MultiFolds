@@ -63,12 +63,12 @@ time python  get_combined_score.py \
 # TODO: # Corregir el nombre de la ventana, porque le pone nombre hasta el final pero debería ser hasta casi el final
 		
 cd $myPATH/$dir_name/seq
-python $mainPATH/projects/MULTI-FOLDS/scripts/sliding_windows.py -i $mol_name.fa -w $window -s $step
+python $programPATH/MultiFolds/scripts/sliding_windows.py -i $mol_name.fa -w $window -s $step
 
 mv $myPATH/$dir_name/seq/$mol_name.outfile $myPATH/$dir_name/res/$mol_name.fa
 
 cd $myPATH/$dir_name/res
-python $mainPATH/projects/MULTI-FOLDS/scripts/sliding_windows_nextPARSE_score.py -i $mol_name.RNN_NP_ONLY.csv -w $window -s $step
+python $programPATH/MultiFolds/scripts/sliding_windows_nextPARSE_score.py -i $mol_name.RNN_NP_ONLY.csv -w $window -s $step
 
 
 #####################################
@@ -77,7 +77,7 @@ python $mainPATH/projects/MULTI-FOLDS/scripts/sliding_windows_nextPARSE_score.py
 
 cd $myPATH/$dir_name/res
 
-time python $mainPATH/projects/MULTI-FOLDS/scripts/linear_mapping.py \
+time python $programPATH/MultiFolds/scripts/linear_mapping.py \
 	--path $myPATH/$dir_name/res
 
 while read line
