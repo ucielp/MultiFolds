@@ -11,7 +11,7 @@ else
 fi
 
 mainPATH=/home/uchorostecki/lab/uchorostecki
-programPATH=/home/uchorostecki/lab/programs
+programPATH=/home/uchorostecki/lab/uchorostecki/software
 
 tg_path=/home/uchorostecki/users/tg
 myPATH=$mainPATH/projects/MULTI-FOLDS/multiple_conformations
@@ -54,7 +54,7 @@ time python  get_combined_score.py \
 
 
 # En el mismo directorio donde tengo esto *.RNN_NP_ONLY.csv muevo el que no tiene el clasificador (para tenerlo a mano)
-mv $programPATH/nextPARS/bin/$mol_name.RNN.tab $myPATH/$dir_name/res/$mol_name.RNN.tab
+# mv $programPATH/nextPARS/bin/$mol_name.RNN.tab $myPATH/$dir_name/res/$mol_name.RNN.tab
 
 #####################################
 #######   sliding windows  ##########

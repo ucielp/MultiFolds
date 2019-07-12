@@ -11,7 +11,7 @@ else
 fi
 
 mainPATH=/gpfs/projects/bsc40/uchorostecki
-programPATH=/gpfs/projects/bsc40/uchorostecki/programs_cluster
+programPATH=/gpfs/projects/bsc40/uchorostecki/software
 
 tg_path=/gpfs/projects/bsc40
 myPATH=$mainPATH/projects/MULTI-FOLDS/multiple_conformations
