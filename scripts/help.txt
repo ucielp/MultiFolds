@@ -1,0 +1,10 @@
+python linear_mapping.py --path /home/uchorostecki/lab/uchorostecki/projects/MULTI-FOLDS/nextPARS/human_mapping/tab/2017-01-19_RNAFramework/temp_m2/scores/ENRICH
+
+python plot_SHAPE.py /home/uchorostecki/lab/uchorostecki/projects/MULTI-FOLDS/nextPARS/human_mapping/tab/2017-01-19_RNAFramework/temp_m2/scores/POLYA/ACTB.SHAPE
+
+python sliding_windows.py -i test.fasta -w 80 -s 30
+
+python sliding_windows_nextPARSE_score.py -i test.fasta -w 80 -s 30
+
+
+# Scripts moved  to /home/uchorostecki/lab/uchorostecki/software/MultiFolds/scripts

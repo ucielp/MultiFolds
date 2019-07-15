@@ -18,7 +18,11 @@ def slidingWindow(sequence,winSize,stepSize):
 	numOfPieces = ((len(sequence)-winSize)//stepSize)+1
 	# Do the work
 	for i in range(0,numOfPieces*stepSize+1,stepSize):
-		yield (sequence[i:i+winSize],(i,i+winSize))
+		if i+winSize > len(sequence):
+			end = len(sequence)
+		else:
+			end = i+winSize
+		yield (sequence[i:end],(i,end))
 
 
 def process_fasta(fasta_file,window,step):
