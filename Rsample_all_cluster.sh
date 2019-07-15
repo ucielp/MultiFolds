@@ -122,6 +122,10 @@ mv $myPATH/$dir_name/res/*\_*.fa ../final/.
 #######   	Rsample		   ##########
 #####################################
 
+
+export DATAPATH=$programPATH/RNAstructure/data_tables/
+
+
 cd $programPATH/RNAstructure/exe
 	
 for shape_file in $(ls $myPATH/$dir_name/final/*SHAPE ); do
@@ -147,3 +151,14 @@ for shape_file in $(ls $myPATH/$dir_name/final/*SHAPE ); do
 	time Rscript --vanilla $programPATH/RNAstructure/manual/Text/resources/RsampleCluster.R $filename.ct
 
 done;
+
+cd $programPATH/RNAstructure/exe
+for ct_file in $(ls $myPATH/$dir_name/final/*.ct ); do
+	
+	ct_f=$(basename -- "$ct_file")
+	path=$(dirname "${ct_file}")
+	filename=$(basename $ct_file .ct)
+
+	./ct2dot $path/$filename.ct 1 $path/$filename.bracket
+
+done
