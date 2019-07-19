@@ -54,7 +54,7 @@ time python  get_combined_score.py \
 
 
 # En el mismo directorio donde tengo esto *.RNN_NP_ONLY.csv muevo el que no tiene el clasificador (para tenerlo a mano)
-# mv $programPATH/nextPARS/bin/$mol_name.RNN.tab $myPATH/$dir_name/res/$mol_name.RNN.tab
+mv $programPATH/nextPARS/bin/$mol_name.RNN.tab $myPATH/$dir_name/res/$mol_name.RNN.tab
 
 #####################################
 #######   sliding windows  ##########
@@ -121,8 +121,9 @@ mv $myPATH/$dir_name/res/*\_*.fa ../final/.
 #######   	Rsample		   ##########
 #####################################
 
+export DATAPATH=$programPATH/RNAstructure/data_tables/
+
 cd $programPATH/RNAstructure/exe
-#~ export DATAPATH=$programPATH/RNAstructure/data_tables/
 
 for shape_file in $(ls $myPATH/$dir_name/final/*SHAPE ); do
 
