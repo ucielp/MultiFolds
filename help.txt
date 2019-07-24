@@ -25,3 +25,20 @@ cd /gpfs/projects/bsc40/uchorostecki/software/MultiFolds
 sbatch job_script.sh
 squeue
 # scancel 6529929
+
+########## GREASY
+# For other specie I have to modify line 29 and the followings c_glabrata
+cd /home/uchorostecki/lab/tg/tgabaldon/PROJECTS/NONCODEVOL/DATA/TAB_FILES/our_data/c_glabrata/2015-01-09
+# Look for all the genes that are in the all the temp
+cut -f 1 *temp | sort | uniq -c | sort |  grep '^      4' | cut -f8 -d " " > /home/uchorostecki/lab/uchorostecki/software/MultiFolds/genes/c_glabrata_2015-01-09.genes
+
+cd /home/uchorostecki/lab/uchorostecki/software/MultiFolds/scripts
+
+generate_greasy_jobs.sh c_glabrata_2015-01-09.genes
+
+cd /gpfs/projects/bsc40/uchorostecki/software/MultiFolds
+sbatch job_script_greasy.sh
+squeue
+# scancel 6529929
+
+
