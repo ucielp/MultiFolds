@@ -6,7 +6,7 @@ if [ $# -gt 2 ]; then
 	window=$3
 	step=$4
 else
-	echo "Please include molecule name, window size and step size
+	echo "Please include molecule name, temperature, window size and step size
 /multifolds.sh ROX2 23 180 60 > ROX2_23_180_60.out 2> ROX2_180_60.error"
 	exit 1
 fi

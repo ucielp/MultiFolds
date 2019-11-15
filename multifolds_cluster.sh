@@ -6,7 +6,7 @@ if [ $# -gt 2 ]; then
 	window=$3
 	step=$4
 else
-	echo "Please include molecule name, window size and step size
+	echo "Please include molecule name, temperature, window size and step size
 ./multifolds_cluster.sh ROX2 23 180 60 > ROX2_23_180_60.out 2> ROX2_180_60.error"
 	exit 1
 fi
@@ -64,6 +64,8 @@ cd $mainPATH/projects/MULTI-FOLDS/nextPARS/temperatures/processing/DB/
 myvar=$mol_name
 awk -v myvar="$myvar" '/^>/ { p = ($0 ~ /'$myvar'/)} p' $fasta_file > $myPATH/$dir_name/seq/$mol_name.fa
 
+length=$(cat $myPATH/$dir_name/seq/$mol_name.fa | awk '$0 ~ ">" {print c; c=0; } $0 !~ ">" {c+=length($0);} END { print c; }')
+
 #####################################
 ####### get_combined_score ##########
 ####### Without classifier ##########  
@@ -87,8 +89,6 @@ mv $programPATH/nextPARS/bin/$mol_name.RNN.tab $myPATH/$dir_name/res/$mol_name.R
 #######   sliding windows  ##########
 #####################################
 
-# TODO: # Corregir el nombre de la ventana, porque le pone nombre hasta el final pero debería ser hasta casi el final
-		
 cd $myPATH/$dir_name/seq
 python $programPATH/MultiFolds/scripts/sliding_windows.py -i $mol_name.fa -w $window -s $step
 
