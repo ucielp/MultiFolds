@@ -41,4 +41,25 @@ sbatch job_script_greasy.sh
 squeue
 # scancel 6529929
 
+https://userportal.bsc.es/
 
+
+########## GREASY temperatures
+# Tengo que mejorar esto
+cd /home/uchorostecki/lab/uchorostecki/projects/MULTI-FOLDS/nextPARS/temperatures/processing/tab_files/23_degrees
+
+
+# Look for all the genes that are in the all the temp (6 of them)
+cut -f 1 *temp | sort | uniq -c | sort |  grep '^      6' | cut -f8 -d " " > /home/uchorostecki/lab/uchorostecki/software/MultiFolds/genes/23degree.genes
+
+cd /home/uchorostecki/lab/uchorostecki/software/MultiFolds/scripts
+./generate_greasy_jobs.sh 23degree.genes
+# tengo que mover 23degree.genes acá
+
+cd /gpfs/projects/bsc40/uchorostecki/software/MultiFolds
+sbatch job_script_greasy.sh
+squeue
+
+# scancel 7866221
+
+https://userportal.bsc.es/

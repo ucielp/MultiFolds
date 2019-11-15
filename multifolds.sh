@@ -2,11 +2,12 @@
 
 if [ $# -gt 2 ]; then
 	mol_name=$1
-	window=$2
-	step=$3
+	temp=$2
+	window=$3
+	step=$4
 else
 	echo "Please include molecule name, window size and step size
-/Rsample_all.sh PRC2_mHotair 180 60 > PRC2_mHotair.out 2> PRC2_mHotair.error"
+/multifolds.sh ROX2 23 180 60 > ROX2_23_180_60.out 2> ROX2_180_60.error"
 	exit 1
 fi
 
@@ -14,28 +15,57 @@ mainPATH=/home/uchorostecki/lab/uchorostecki
 programPATH=/home/uchorostecki/lab/uchorostecki/software
 
 tg_path=/home/uchorostecki/users/tg
-myPATH=$mainPATH/projects/MULTI-FOLDS/multiple_conformations
+myPATH=$mainPATH/projects/MULTI-FOLDS/multiple_conformations/$temp'_degrees'
 
 cd $myPATH
 
-dir_name=$mol_name"_"$window"_"$step
+dir_name=$mol_name"_"$temp"_"$window"_"$step
 mkdir $dir_name/; mkdir $dir_name/seq/; mkdir $dir_name/tab; mkdir $dir_name/res; mkdir $dir_name/final
+
+fasta_file='C_parapsilosis_plus_individual.fasta'
+
+#################
+### TAB FILES ###
+#################
 
 #~ # OPTION 1
 #~ # cp $programPATH/nextPARS/data/$mol_name/* $mol_name/tab/.
 #~ # cp $programPATH/nextPARS/data/SEQS/PROBES/$mol_name.fa $mol_name/seq/.
 
-#~ # OPTION 2
-cd $tg_path/tgabaldon/PROJECTS/NONCODEVOL/DATA/TAB_FILES/our_data/c_glabrata/2015-01-09
-grep $mol_name PolyA-2015-01-09a_V1.tab_temp > $myPATH/$dir_name/tab/PolyA-2015-01-09a_V1.tab
-grep $mol_name PolyA-2015-01-09b_S1.tab_temp > $myPATH/$dir_name/tab/PolyA-2015-01-09b_S1.tab
-grep $mol_name PolyA-2015-01-09c_V1.tab_temp > $myPATH/$dir_name/tab/PolyA-2015-01-09c_V1.tab
-grep $mol_name PolyA-2015-01-09d_S1.tab_temp > $myPATH/$dir_name/tab/PolyA-2015-01-09d_S1.tab
+#~ # OPTION 2 - OLD
+#~ cd $tg_path/tgabaldon/PROJECTS/NONCODEVOL/DATA/TAB_FILES/our_data/c_glabrata/2015-01-09
+#~ grep $mol_name PolyA-2015-01-09a_V1.tab_temp > $myPATH/$dir_name/tab/PolyA-2015-01-09a_V1.tab
+#~ grep $mol_name PolyA-2015-01-09b_S1.tab_temp > $myPATH/$dir_name/tab/PolyA-2015-01-09b_S1.tab
+#~ grep $mol_name PolyA-2015-01-09c_V1.tab_temp > $myPATH/$dir_name/tab/PolyA-2015-01-09c_V1.tab
+#~ grep $mol_name PolyA-2015-01-09d_S1.tab_temp > $myPATH/$dir_name/tab/PolyA-2015-01-09d_S1.tab
 
-cd $tg_path/tgabaldon/PROJECTS/NONCODEVOL/DATA/SEQS/GENOMES/C_GLABRATA
+#~ # OPTION 2 
+cd $mainPATH/projects/MULTI-FOLDS/nextPARS/temperatures/processing/tab_files/$temp'_degrees'/
+pwd
+
+i=1
+for tab_file_name in $(ls *temp); do 
+	if [[ $tab_file_name == *"V1"* ]]; then
+		grep $mol_name $tab_file_name > $myPATH/$dir_name/tab/$i'-'$temp'_V1.tab'
+		((i=i+1))
+	elif [[ $tab_file_name == *"S1"* ]]; then
+		grep $mol_name $tab_file_name > $myPATH/$dir_name/tab/$i'-'$temp'_S1.tab'
+		((i=i+1))
+	fi
+done; 
+
+
+# old
+# cd $tg_path/tgabaldon/PROJECTS/NONCODEVOL/DATA/SEQS/GENOMES/C_GLABRATA
+# myvar=$mol_name
+# awk -v myvar="$myvar" '/^>/ { p = ($0 ~ /'$myvar'/)} p' C_glabrata_CBS138_current_chromosomes.fasta > $myPATH/$dir_name/seq/$mol_name.fa
+
+
+cd $mainPATH/projects/MULTI-FOLDS/nextPARS/temperatures/processing/DB/
 myvar=$mol_name
-awk -v myvar="$myvar" '/^>/ { p = ($0 ~ /'$myvar'/)} p' C_glabrata_CBS138_current_chromosomes.fasta > $myPATH/$dir_name/seq/$mol_name.fa
+awk -v myvar="$myvar" '/^>/ { p = ($0 ~ /'$myvar'/)} p' $fasta_file > $myPATH/$dir_name/seq/$mol_name.fa
 
+length=$(cat $myPATH/$dir_name/seq/$mol_name.fa | awk '$0 ~ ">" {print c; c=0; } $0 !~ ">" {c+=length($0);} END { print c; }')
 
 #####################################
 ####### get_combined_score ##########
@@ -46,6 +76,8 @@ cd $programPATH/nextPARS/bin
 
 # Check 
 # sudo python2.7 -m pip install argparse numpy biopython datetime pysam termcolor pandas keras tensorflow dask h5py
+source activate pythonDos
+
 time python  get_combined_score.py \
 	-i $mol_name \
 	-inDir $myPATH/$dir_name/tab \
@@ -60,8 +92,6 @@ mv $programPATH/nextPARS/bin/$mol_name.RNN.tab $myPATH/$dir_name/res/$mol_name.R
 #######   sliding windows  ##########
 #####################################
 
-# TODO: # Corregir el nombre de la ventana, porque le pone nombre hasta el final pero debería ser hasta casi el final
-		
 cd $myPATH/$dir_name/seq
 python $programPATH/MultiFolds/scripts/sliding_windows.py -i $mol_name.fa -w $window -s $step
 
@@ -100,10 +130,14 @@ b=$window
 
 for splited_file in $(ls $myPATH/$dir_name/res/splited_* ); do
 	
-
-	new_splited_file="$mol_name"_"$a"_"$b".SHAPE
-	mv $splited_file $new_splited_file
-	
+	if (( $length > b ))
+	then
+		new_splited_file="$mol_name"_"$a"_"$b".SHAPE
+		mv $splited_file $new_splited_file
+	else
+		new_splited_file="$mol_name"_"$a"_"${length:1:${#length}-1}".SHAPE
+		mv $splited_file $new_splited_file
+	fi
 	((a=a+$step))
 	((b=b+$step))
 	
