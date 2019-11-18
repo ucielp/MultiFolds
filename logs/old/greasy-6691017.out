@@ -1,0 +1,1 @@
+srun -n 97 -O /apps/GREASY/2.2/INTEL/IMPI/bin/greasybin c_glabrata_2015-01-09.genes.txt

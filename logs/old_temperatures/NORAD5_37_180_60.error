@@ -1,0 +1,901 @@
+mkdir: cannot create directory ‘NORAD5_37_mv: cannot stat '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/seq/NORAD5.outfile': No such file or directory
+
+real	0m0.210s
+user	0m0.120s
+sys	0m0.080s
+./multifolds_cluster.sh: line 120: NORAD5.fa: No such file or directory
+mv: cannot stat '/gpfs/proj
+real	0m20.794s
+user	0m15.826s
+sys	0m2.144s
+
+real	0m0.485s
+user	0m0.122s
+sys	0m0.083s
+
+real	0m3.826s
+user	0m3.762s
+sys	0m0.040s
+
+real	0m1.791s
+user	0m1.139s
+sys	0m0.520s
+Read 1 item
+
+real	45m55.000s
+user	44m57.657s
+sys	0m13.916s
+
+real	0m4.325s
+user	0m4.258s
+sys	0m0.044s
+
+real	0m2.098s
+user	0m1.622s
+sys	0m0.472s
+Read 1 item
+
+real	46m6.187s
+user	44m56.886s
+sys	0m14.802s
+
+real	0m28.120s
+user	0m27.752s
+sys	0m0.040s
+
+real	0m3.022s
+user	0m2.353s
+sys	0m0.511s
+Read 1 item
+
+real	44m17.535s
+user	43m47.377s
+sys	0m15.169s
+
+real	0m3.759s
+user	0m3.675s
+sys	0m0.076s
+
+real	0m2.162s
+user	0m1.490s
+sys	0m0.503s
+Read 1 item
+
+real	46m20.429s
+user	45m13.548s
+sys	0m15.481s
+
+real	0m16.842s
+user	0m16.276s
+sys	0m0.048s
+
+real	0m2.085s
+user	0m1.506s
+sys	0m0.512s
+Read 1 item
+
+real	45m12.522s
+user	44m36.970s
+sys	0m15.133s
+
+real	0m20.456s
+user	0m19.650s
+sys	0m0.032s
+
+real	0m2.427s
+user	0m1.814s
+sys	0m0.495s
+Read 1 item
+
+real	45m56.270s
+user	45m27.958s
+sys	0m14.302s
+
+real	0m5.632s
+user	0m5.346s
+sys	0m0.040s
+
+real	0m1.628s
+user	0m1.116s
+sys	0m0.492s
+Read 1 item
+
+real	45m34.417s
+user	45m5.099s
+sys	0m14.168s
+
+real	0m6.531s
+user	0m6.406s
+sys	0m0.048s
+
+real	0m1.924s
+user	0m1.183s
+sys	0m0.456s
+Read 1 item
+
+real	43m10.144s
+user	42m20.326s
+sys	0m15.488s
+
+real	0m3.999s
+user	0m3.727s
+sys	0m0.079s
+
+real	0m2.073s
+user	0m1.517s
+sys	0m0.508s
+Read 1 item
+
+real	42m53.203s
+user	42m6.320s
+sys	0m15.589s
+
+real	0m25.918s
+user	0m25.159s
+sys	0m0.048s
+
+real	0m2.450s
+user	0m1.822s
+sys	0m0.513s
+Read 1 item
+
+real	44m26.532s
+user	43m42.032s
+sys	0m14.790s
+
+real	0m16.151s
+user	0m15.348s
+sys	0m0.032s
+
+real	0m1.046s
+user	0m0.493s
+sys	0m0.472s
+Read 1 item
+
+real	42m37.894s
+user	42m10.584s
+sys	0m14.066s
+
+real	0m3.568s
+user	0m3.505s
+sys	0m0.036s
+
+real	0m1.592s
+user	0m1.087s
+sys	0m0.499s
+Read 1 item
+
+real	38m30.754s
+user	38m2.356s
+sys	0m14.527s
+
+real	0m17.703s
+user	0m17.634s
+sys	0m0.032s
+
+real	0m1.318s
+user	0m0.641s
+sys	0m0.490s
+Read 1 item
+
+real	39m43.087s
+user	39m4.714s
+sys	0m14.778s
+
+real	0m13.509s
+user	0m13.030s
+sys	0m0.048s
+
+real	0m2.297s
+user	0m1.765s
+sys	0m0.519s
+Read 1 item
+
+real	35m15.340s
+user	34m31.707s
+sys	0m13.954s
+
+real	0m2.932s
+user	0m2.351s
+sys	0m0.042s
+
+real	0m2.561s
+user	0m1.603s
+sys	0m0.452s
+Read 1 item
+
+real	24m32.408s
+user	22m54.892s
+sys	1m16.408s
+
+real	0m18.073s
+user	0m17.800s
+sys	0m0.040s
+
+real	0m1.228s
+user	0m0.782s
+sys	0m0.442s
+Read 1 item
+
+real	35m6.794s
+user	34m32.058s
+sys	0m14.716s
+
+real	0m3.154s
+user	0m3.081s
+sys	0m0.056s
+
+real	0m1.303s
+user	0m0.821s
+sys	0m0.477s
+Read 1 item
+
+real	37m10.823s
+user	36m28.772s
+sys	0m14.058s
+
+real	0m12.667s
+user	0m12.268s
+sys	0m0.036s
+
+real	0m1.819s
+user	0m1.334s
+sys	0m0.481s
+Read 1 item
+
+real	39m31.832s
+user	38m55.157s
+sys	0m14.564s
+
+real	0m2.870s
+user	0m2.800s
+sys	0m0.044s
+
+real	0m1.092s
+user	0m0.585s
+sys	0m0.502s
+Read 1 item
+
+real	39m1.333s
+user	38m39.341s
+sys	0m13.798s
+
+real	0m7.451s
+user	0m6.724s
+sys	0m0.024s
+
+real	0m2.144s
+user	0m1.482s
+sys	0m0.498s
+Read 1 item
+
+real	39m56.925s
+user	39m11.569s
+sys	0m14.700s
+
+real	0m18.290s
+user	0m18.045s
+sys	0m0.044s
+
+real	0m1.437s
+user	0m0.958s
+sys	0m0.475s
+Read 1 item
+
+real	27m0.689s
+user	26m39.338s
+sys	0m12.639s
+
+real	0m10.846s
+user	0m10.746s
+sys	0m0.028s
+
+real	0m1.558s
+user	0m1.059s
+sys	0m0.496s
+Read 1 item
+
+real	27m33.240s
+user	27m12.484s
+sys	0m12.951s
+
+real	0m25.716s
+user	0m25.572s
+sys	0m0.048s
+
+real	0m2.495s
+user	0m1.960s
+sys	0m0.502s
+Read 1 item
+
+real	29m25.614s
+user	28m58.514s
+sys	0m13.619s
+
+real	0m8.963s
+user	0m8.909s
+sys	0m0.032s
+
+real	0m3.462s
+user	0m2.958s
+sys	0m0.475s
+Read 1 item
+
+real	28m7.024s
+user	27m36.994s
+sys	0m13.597s
+
+real	0m3.206s
+user	0m2.818s
+sys	0m0.043s
+
+real	0m3.016s
+user	0m2.362s
+sys	0m0.526s
+Read 1 item
+
+real	29m6.599s
+user	28m35.466s
+sys	0m13.308s
+
+real	0m11.121s
+user	0m11.061s
+sys	0m0.032s
+
+real	0m1.143s
+user	0m0.627s
+sys	0m0.511s
+Read 1 item
+
+real	32m4.612s
+user	31m28.362s
+sys	0m13.994s
+
+real	0m9.042s
+user	0m8.555s
+sys	0m0.044s
+
+real	0m2.247s
+user	0m1.552s
+sys	0m0.478s
+Read 1 item
+
+real	32m29.573s
+user	31m46.318s
+sys	0m14.257s
+
+real	0m20.891s
+user	0m20.616s
+sys	0m0.040s
+
+real	0m2.136s
+user	0m1.578s
+sys	0m0.506s
+Read 1 item
+
+real	34m37.616s
+user	34m1.725s
+sys	0m14.053s
+
+real	0m14.942s
+user	0m14.700s
+sys	0m0.044s
+
+real	0m1.929s
+user	0m1.245s
+sys	0m0.476s
+Read 1 item
+
+real	32m35.187s
+user	32m7.382s
+sys	0m13.242s
+
+real	0m7.282s
+user	0m7.244s
+sys	0m0.028s
+
+real	0m1.337s
+user	0m0.887s
+sys	0m0.446s
+Read 1 item
+
+real	28m44.743s
+user	28m17.661s
+sys	0m14.198s
+ple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_1260_1440.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.006s
+user	0m0.000s
+sys	0m0.005s
+Error: CT file with stochastic sample: NORAD5_1260_1440.ct does not exist.
+Execution halted
+
+real	0m0.235s
+user	0m0.186s
+sys	0m0.038s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_1320_1500.fa' is invalid or does not exist.
+
+
+real	0m0.089s
+user	0m0.056s
+sys	0m0.032s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_1320_1500.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.006s
+user	0m0.000s
+sys	0m0.005s
+Error: CT file with stochastic sample: NORAD5_1320_1500.ct does not exist.
+Execution halted
+
+real	0m0.231s
+user	0m0.173s
+sys	0m0.049s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_1380_1560.fa' is invalid or does not exist.
+
+
+real	0m0.091s
+user	0m0.066s
+sys	0m0.025s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_1380_1560.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.007s
+user	0m0.005s
+sys	0m0.000s
+Error: CT file with stochastic sample: NORAD5_1380_1560.ct does not exist.
+Execution halted
+
+real	0m0.246s
+user	0m0.154s
+sys	0m0.079s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_1440_1620.fa' is invalid or does not exist.
+
+
+real	0m0.095s
+user	0m0.055s
+sys	0m0.039s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_1440_1620.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.010s
+user	0m0.003s
+sys	0m0.005s
+Error: CT file with stochastic sample: NORAD5_1440_1620.ct does not exist.
+Execution halted
+
+real	0m0.242s
+user	0m0.159s
+sys	0m0.072s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_1500_1680.fa' is invalid or does not exist.
+
+
+real	0m0.092s
+user	0m0.052s
+sys	0m0.040s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_1500_1680.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.006s
+user	0m0.000s
+sys	0m0.005s
+Error: CT file with stochastic sample: NORAD5_1500_1680.ct does not exist.
+Execution halted
+
+real	0m0.239s
+user	0m0.166s
+sys	0m0.065s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_1560_1740.fa' is invalid or does not exist.
+
+
+real	0m0.094s
+user	0m0.066s
+sys	0m0.026s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_1560_1740.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.009s
+user	0m0.003s
+sys	0m0.004s
+Error: CT file with stochastic sample: NORAD5_1560_1740.ct does not exist.
+Execution halted
+
+real	0m0.248s
+user	0m0.166s
+sys	0m0.070s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_1620_1800.fa' is invalid or does not exist.
+
+
+real	0m0.092s
+user	0m0.068s
+sys	0m0.024s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_1620_1800.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.008s
+user	0m0.000s
+sys	0m0.007s
+Error: CT file with stochastic sample: NORAD5_1620_1800.ct does not exist.
+Execution halted
+
+real	0m0.246s
+user	0m0.170s
+sys	0m0.067s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_1680_1860.fa' is invalid or does not exist.
+
+
+real	0m0.091s
+user	0m0.078s
+sys	0m0.013s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_1680_1860.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.007s
+user	0m0.000s
+sys	0m0.006s
+Error: CT file with stochastic sample: NORAD5_1680_1860.ct does not exist.
+Execution halted
+
+real	0m0.255s
+user	0m0.175s
+sys	0m0.060s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_1740_1903.fa' is invalid or does not exist.
+
+
+real	0m0.092s
+user	0m0.083s
+sys	0m0.008s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_1740_1903.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.005s
+user	0m0.000s
+sys	0m0.005s
+Error: CT file with stochastic sample: NORAD5_1740_1903.ct does not exist.
+Execution halted
+
+real	0m0.244s
+user	0m0.168s
+sys	0m0.061s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_180_360.fa' is invalid or does not exist.
+
+
+real	0m0.094s
+user	0m0.085s
+sys	0m0.008s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_180_360.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.008s
+user	0m0.000s
+sys	0m0.007s
+Error: CT file with stochastic sample: NORAD5_180_360.ct does not exist.
+Execution halted
+
+real	0m0.252s
+user	0m0.163s
+sys	0m0.079s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_240_420.fa' is invalid or does not exist.
+
+
+real	0m0.095s
+user	0m0.058s
+sys	0m0.037s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_240_420.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.007s
+user	0m0.000s
+sys	0m0.006s
+Error: CT file with stochastic sample: NORAD5_240_420.ct does not exist.
+Execution halted
+
+real	0m0.311s
+user	0m0.171s
+sys	0m0.072s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_300_480.fa' is invalid or does not exist.
+
+
+real	0m0.092s
+user	0m0.068s
+sys	0m0.024s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_300_480.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.006s
+user	0m0.002s
+sys	0m0.003s
+Error: CT file with stochastic sample: NORAD5_300_480.ct does not exist.
+Execution halted
+
+real	0m0.303s
+user	0m0.180s
+sys	0m0.046s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_360_540.fa' is invalid or does not exist.
+
+
+real	0m0.210s
+user	0m0.073s
+sys	0m0.019s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_360_540.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.017s
+user	0m0.000s
+sys	0m0.005s
+Error: CT file with stochastic sample: NORAD5_360_540.ct does not exist.
+Execution halted
+
+real	0m0.345s
+user	0m0.179s
+sys	0m0.051s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_420_600.fa' is invalid or does not exist.
+
+
+real	0m0.094s
+user	0m0.071s
+sys	0m0.021s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_420_600.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.005s
+user	0m0.000s
+sys	0m0.004s
+Error: CT file with stochastic sample: NORAD5_420_600.ct does not exist.
+Execution halted
+
+real	0m0.296s
+user	0m0.187s
+sys	0m0.043s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_480_660.fa' is invalid or does not exist.
+
+
+real	0m0.092s
+user	0m0.067s
+sys	0m0.025s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_480_660.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.005s
+user	0m0.005s
+sys	0m0.000s
+Error: CT file with stochastic sample: NORAD5_480_660.ct does not exist.
+Execution halted
+
+real	0m0.304s
+user	0m0.192s
+sys	0m0.030s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_540_720.fa' is invalid or does not exist.
+
+
+real	0m0.091s
+user	0m0.059s
+sys	0m0.031s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_540_720.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.040s
+user	0m0.000s
+sys	0m0.005s
+Error: CT file with stochastic sample: NORAD5_540_720.ct does not exist.
+Execution halted
+
+real	0m0.491s
+user	0m0.180s
+sys	0m0.052s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_600_780.fa' is invalid or does not exist.
+
+
+real	0m0.113s
+user	0m0.069s
+sys	0m0.024s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_600_780.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.022s
+user	0m0.000s
+sys	0m0.005s
+Error: CT file with stochastic sample: NORAD5_600_780.ct does not exist.
+Execution halted
+
+real	0m0.382s
+user	0m0.189s
+sys	0m0.040s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_60_240.fa' is invalid or does not exist.
+
+
+real	0m0.121s
+user	0m0.074s
+sys	0m0.016s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_60_240.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.005s
+user	0m0.005s
+sys	0m0.000s
+Error: CT file with stochastic sample: NORAD5_60_240.ct does not exist.
+Execution halted
+
+real	0m0.443s
+user	0m0.187s
+sys	0m0.040s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_660_840.fa' is invalid or does not exist.
+
+
+real	0m0.148s
+user	0m0.071s
+sys	0m0.021s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_660_840.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.005s
+user	0m0.004s
+sys	0m0.000s
+Error: CT file with stochastic sample: NORAD5_660_840.ct does not exist.
+Execution halted
+
+real	0m0.448s
+user	0m0.195s
+sys	0m0.034s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_720_900.fa' is invalid or does not exist.
+
+
+real	0m0.160s
+user	0m0.058s
+sys	0m0.036s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_720_900.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.006s
+user	0m0.000s
+sys	0m0.005s
+Error: CT file with stochastic sample: NORAD5_720_900.ct does not exist.
+Execution halted
+
+real	0m0.343s
+user	0m0.198s
+sys	0m0.029s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_780_960.fa' is invalid or does not exist.
+
+
+real	0m0.162s
+user	0m0.074s
+sys	0m0.025s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_780_960.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.013s
+user	0m0.000s
+sys	0m0.005s
+Error: CT file with stochastic sample: NORAD5_780_960.ct does not exist.
+Execution halted
+
+real	0m0.339s
+user	0m0.179s
+sys	0m0.048s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_840_1020.fa' is invalid or does not exist.
+
+
+real	0m0.192s
+user	0m0.076s
+sys	0m0.016s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_840_1020.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.033s
+user	0m0.000s
+sys	0m0.005s
+Error: CT file with stochastic sample: NORAD5_840_1020.ct does not exist.
+Execution halted
+
+real	0m0.412s
+user	0m0.188s
+sys	0m0.045s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_900_1080.fa' is invalid or does not exist.
+
+
+real	0m0.094s
+user	0m0.069s
+sys	0m0.024s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_900_1080.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.005s
+user	0m0.000s
+sys	0m0.005s
+Error: CT file with stochastic sample: NORAD5_900_1080.ct does not exist.
+Execution halted
+
+real	0m0.359s
+user	0m0.176s
+sys	0m0.052s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_960_1140.fa' is invalid or does not exist.
+
+
+real	0m0.109s
+user	0m0.066s
+sys	0m0.043s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/NORAD5_960_1140.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.005s
+user	0m0.000s
+sys	0m0.005s
+Error: CT file with stochastic sample: NORAD5_960_1140.ct does not exist.
+Execution halted
+
+real	0m0.311s
+user	0m0.178s
+sys	0m0.049s
+ls: cannot access '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD5_37_180_60/final/*.ct': No such file or directory

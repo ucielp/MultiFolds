@@ -1,0 +1,217 @@
+mkdir: cannot create directory ‘mSRA_55_180_60/’: File exists
+mkdir: cannot create directory ‘mSRA_55_180_60/seq/’: File exists
+mkdir: cannot create directory ‘mSRA_55_180_60/tab’: File exists
+mkdir: cannot create directory ‘mSRError in scan(file = file, what = what, sep = sep, quote = quote, dec = dec,  : 
+  line 82 did not have 6 elements
+Calls: as.matrix -> read.table -> scan
+Execution halted
+
+real	0m35.575s
+user	0m31.066s
+sys	0m3.913s
+
+real	0m3.164s
+user	0m2.861s
+sys	0m0.040s
+
+real	0m1.594s
+user	0m1.093s
+sys	0m0.487s
+Read 1 item
+
+real	46m4.557s
+user	45m0.169s
+sys	0m14.387s
+
+real	0m5.411s
+user	0m5.270s
+sys	0m0.044s
+
+real	0m1.587s
+user	0m1.122s
+sys	0m0.461s
+Read 1 item
+
+real	46m14.280s
+user	45m5.277s
+sys	0m14.592s
+
+real	0m5.656s
+user	0m5.389s
+sys	0m0.052s
+
+real	0m1.766s
+user	0m1.217s
+sys	0m0.473s
+Read 1 item
+
+real	46m4.094s
+user	44m57.555s
+sys	0m14.033s
+
+real	0m6.006s
+user	0m5.697s
+sys	0m0.032s
+
+real	0m1.106s
+user	0m0.603s
+sys	0m0.499s
+Read 1 item
+
+real	46m5.243s
+user	45m6.638s
+sys	0m14.558s
+
+real	0m25.062s
+user	0m24.017s
+sys	0m0.040s
+
+real	0m3.020s
+user	0m2.424s
+sys	0m0.502s
+Read 1 item
+
+real	45m24.459s
+user	44m52.236s
+sys	0m14.890s
+
+real	0m13.368s
+user	0m13.072s
+sys	0m0.028s
+
+real	0m2.962s
+user	0m2.348s
+sys	0m0.530s
+Read 1 item
+
+real	45m58.951s
+user	45m33.399s
+sys	0m15.069s
+
+real	0m4.770s
+user	0m4.598s
+sys	0m0.052s
+
+real	0m2.701s
+user	0m2.090s
+sys	0m0.484s
+Read 1 item
+
+real	44m10.084s
+user	43m19.309s
+sys	0m14.288s
+
+real	0m22.401s
+user	0m21.079s
+sys	0m0.028s
+
+real	0m1.932s
+user	0m1.278s
+sys	0m0.649s
+Read 1 item
+
+real	43m11.181s
+user	42m35.472s
+sys	0m14.679s
+
+real	0m14.263s
+user	0m14.104s
+sys	0m0.036s
+
+real	0m3.268s
+user	0m2.816s
+sys	0m0.448s
+Read 1 item
+
+real	42m55.812s
+user	42m9.580s
+sys	0m14.283s
+
+real	0m17.086s
+user	0m16.463s
+sys	0m0.052s
+
+real	0m1.487s
+user	0m0.962s
+sys	0m0.481s
+Read 1 item
+
+real	44m18.176s
+user	43m29.303s
+sys	0m14.726s
+
+real	0m16.231s
+user	0m15.300s
+sys	0m0.036s
+
+real	0m2.714s
+user	0m1.640s
+sys	0m0.530s
+Read 1 item
+
+real	42m42.148s
+user	42m11.155s
+sys	0m14.287s
+
+real	0m1.808s
+user	0m1.773s
+sys	0m0.032s
+
+real	0m0.653s
+user	0m0.215s
+sys	0m0.434s
+Read 1 item
+
+real	19m16.271s
+user	19m0.581s
+sys	0m7.956s
+8s
+sys	0m0.052s
+
+real	0m2.140s
+user	0m1.612s
+sys	0m0.516s
+Read 1 item
+
+real	36m55.357s
+user	36m27.774s
+sys	0m14.409s
+
+real	0m14.751s
+user	0m13.936s
+sys	0m0.067s
+
+real	0m1.886s
+user	0m1.152s
+sys	0m0.461s
+Read 1 item
+
+real	34m33.009s
+user	34m0.214s
+sys	0m14.111s
+
+real	0m17.690s
+user	0m17.600s
+sys	0m0.040s
+
+real	0m2.153s
+user	0m1.648s
+sys	0m0.500s
+Read 1 item
+
+real	40m42.388s
+user	39m56.246s
+sys	0m14.665s
+
+real	0m1.821s
+user	0m1.788s
+sys	0m0.028s
+
+real	0m0.660s
+user	0m0.233s
+sys	0m0.421s
+Read 1 item
+
+real	19m39.406s
+user	19m18.909s
+sys	0m8.375s

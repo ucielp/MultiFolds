@@ -1,0 +1,38 @@
+mkdir: cannot create directory ‘U1_37_180_60/’: File exists
+mkdir: cannot create directory ‘U1_37_180_60/seq/’: File exists
+mkdir: cannot create directory ‘U1_37_180_60/tab’: File exists
+mkdir: cannot create directory ‘U1_37_180_60/res’: File exists
+mkdir: cannot create directory ‘U1_37_180_60/final’: File exists
+
+real	0m18.850s
+user	0m13.403s
+sys	0m1.738s
+Traceback (most recent call last):
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows.py", line 54, in <module>
+    main()
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows.py", line 50, in main
+    process_fasta(args.infile,int(args.window),int(args.step))
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows.py", line 35, in process_fasta
+    for i in mygenerator:
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows.py", line 16, in slidingWindow
+    raise Exception("**ERROR** winSize must not be larger than sequence length.")
+Exception: **ERROR** winSize must not be larger than sequence length.
+Traceback (most recent call last):
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows_nextPARSE_score.py", line 58, in <module>
+    main()
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows_nextPARSE_score.py", line 54, in main
+    process_tab(args.infile,int(args.window),int(args.step))
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows_nextPARSE_score.py", line 39, in process_tab
+    for i in mygenerator:
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows_nextPARSE_score.py", line 16, in slidingWindow
+    raise Exception("**ERROR** winSize must not be larger than sequence length.")
+Exception: **ERROR** winSize must not be larger than sequence length.
+
+real	0m0.077s
+user	0m0.037s
+sys	0m0.023s
+ls: cannot access '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/U1_37_180_60/res/splited_*': No such file or directory
+mv: cannot stat '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/U1_37_180_60/res/*_*.SHAPE': No such file or directory
+mv: cannot stat '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/U1_37_180_60/res/*_*.fa': No such file or directory
+ls: cannot access '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/U1_37_180_60/final/*SHAPE': No such file or directory
+ls: cannot access '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/U1_37_180_60/final/*.ct': No such file or directory

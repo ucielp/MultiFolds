@@ -1,0 +1,182 @@
+mkdir: cannot create directory ‘hSRA_55_180_60/’: File exists
+mkdir: cannot create directory ‘hSRA_55_180_60/seq/’: File exists
+mkdir: cannot create directory ‘hSRA_55_180_60/tab’: File exists
+mkdir: cannot create directory ‘hSRA_55_180_60/res’: File exists
+mkdir: cannot create directory ‘hSRA_55_180_60/final’: File exists
+
+real	0m18.212s
+user	0m14.111s
+sys	0m1.623s
+
+real	0m0.152s
+user	0m0.101s
+sys	0m0.047s
+
+real	0m42.543s
+user	0m41.735s
+sys	0m0.112s
+
+real	0m3.343s
+user	0m2.789s
+sys	0m0.520s
+Read 1 item
+
+real	44m14.334s
+user	43m45.124s
+sys	0m14.729s
+
+real	0m22.654s
+user	0m22.167s
+sys	0m0.036s
+
+real	0m2.986s
+user	0m2.389s
+sys	0m0.484s
+Read 1 item
+
+real	44m31.007s
+user	44m9.063s
+sys	0m14.256s
+
+real	0m15.368s
+user	0m15.129s
+sys	0m0.036s
+
+real	0m2.150s
+user	0m1.618s
+sys	0m0.526s
+Read 1 item
+
+real	44m12.479s
+user	43m47.929s
+sys	0m14.809s
+
+real	0m33.908s
+user	0m33.378s
+sys	0m0.048s
+
+real	0m1.165s
+user	0m0.610s
+sys	0m0.513s
+Read 1 item
+
+real	45m3.156s
+user	44m27.425s
+sys	0m14.297s
+
+real	0m3.637s
+user	0m3.366s
+sys	0m0.032s
+
+real	0m1.325s
+user	0m0.609s
+sys	0m0.490s
+Read 1 item
+
+real	45m30.114s
+user	44m52.530s
+sys	0m15.474s
+
+real	0m26.102s
+user	0m25.513s
+sys	0m0.028s
+
+real	0m2.534s
+user	0m1.734s
+sys	0m0.485s
+Read 1 item
+
+real	46m44.231s
+user	45m36.272s
+sys	0m15.105s
+
+real	0m34.886s
+user	0m33.468s
+sys	0m0.100s
+
+real	0m1.744s
+user	0m0.968s
+sys	0m0.541s
+Read 1 item
+
+real	44m41.681s
+user	43m44.464s
+sys	0m14.964s
+
+real	0m12.823s
+user	0m12.210s
+sys	0m0.036s
+
+real	0m3.436s
+user	0m2.471s
+sys	0m0.524s
+Read 1 item
+
+real	43m10.824s
+user	42m34.151s
+sys	0m14.402s
+
+real	0m2.939s
+user	0m2.889s
+sys	0m0.032s
+
+real	0m0.918s
+user	0m0.425s
+sys	0m0.489s
+Read 1 item
+
+real	41m44.724s
+user	40m55.956s
+sys	0m14.733s
+
+real	0m36.923s
+user	0m35.925s
+sys	0m0.080s
+
+real	0m2.901s
+user	0m2.134s
+sys	0m0.499s
+Read 1 item
+
+real	41m21.564s
+user	40m37.015s
+sys	0m14.969s
+
+real	0m6.809s
+user	0m6.751s
+sys	0m0.048s
+
+real	0m2.207s
+user	0m1.716s
+sys	0m0.484s
+Read 1 item
+
+real	43m11.704s
+user	42m39.881s
+sys	0m14.506s
+
+real	0m3.552s
+user	0m2.989s
+sys	0m0.051s
+
+real	0m2.762s
+user	0m1.925s
+sys	0m0.513s
+Read 1 item
+
+real	37m12.075s
+user	36m38.660s
+sys	0m14.630s
+
+real	0m7.733s
+user	0m7.152s
+sys	0m0.028s
+
+real	0m1.234s
+user	0m0.780s
+sys	0m0.410s
+Read 1 item
+
+real	22m54.819s
+user	21m21.129s
+sys	1m10.370s

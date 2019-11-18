@@ -1,0 +1,185 @@
+
+real	0m35.587s
+user	0m13.281s
+sys	0m5.024s
+
+real	0m0.144s
+user	0m0.098s
+sys	0m0.043s
+
+real	0m14.882s
+user	0m14.838s
+sys	0m0.024s
+
+real	0m1.370s
+user	0m0.855s
+sys	0m0.511s
+Read 1 item
+
+real	29m37.175s
+user	29m22.406s
+sys	0m12.047s
+
+real	0m10.900s
+user	0m10.860s
+sys	0m0.036s
+
+real	0m2.086s
+user	0m1.634s
+sys	0m0.449s
+Read 1 item
+
+real	29m42.191s
+user	29m27.167s
+sys	0m13.494s
+
+real	0m16.362s
+user	0m16.315s
+sys	0m0.040s
+
+real	0m2.397s
+user	0m1.860s
+sys	0m0.495s
+Read 1 item
+
+real	29m22.215s
+user	29m8.288s
+sys	0m13.190s
+
+real	0m25.235s
+user	0m24.991s
+sys	0m0.044s
+
+real	0m1.945s
+user	0m1.457s
+sys	0m0.483s
+Read 1 item
+
+real	29m49.439s
+user	29m35.586s
+sys	0m13.390s
+
+real	0m17.932s
+user	0m17.899s
+sys	0m0.028s
+
+real	0m1.094s
+user	0m0.573s
+sys	0m0.517s
+Read 1 item
+
+real	30m1.008s
+user	29m42.684s
+sys	0m13.206s
+
+real	0m12.880s
+user	0m12.809s
+sys	0m0.036s
+
+real	0m1.399s
+user	0m0.946s
+sys	0m0.449s
+Read 1 item
+
+real	29m53.039s
+user	29m36.863s
+sys	0m13.090s
+
+real	0m13.895s
+user	0m13.789s
+sys	0m0.044s
+
+real	0m2.246s
+user	0m1.710s
+sys	0m0.530s
+Read 1 item
+
+real	29m39.300s
+user	29m21.196s
+sys	0m13.551s
+
+real	0m2.612s
+user	0m2.569s
+sys	0m0.036s
+
+real	0m0.799s
+user	0m0.305s
+sys	0m0.491s
+Read 1 item
+
+real	27m11.150s
+user	26m56.292s
+sys	0m12.485s
+
+real	0m3.136s
+user	0m3.092s
+sys	0m0.032s
+
+real	0m2.015s
+user	0m1.533s
+sys	0m0.476s
+Read 1 item
+
+real	27m13.960s
+user	26m58.361s
+sys	0m13.022s
+
+real	0m29.206s
+user	0m29.122s
+sys	0m0.036s
+
+real	0m1.678s
+user	0m1.208s
+sys	0m0.460s
+Read 1 item
+
+real	27m23.435s
+user	27m7.233s
+sys	0m13.691s
+
+real	0m8.293s
+user	0m8.259s
+sys	0m0.028s
+
+real	0m2.367s
+user	0m1.875s
+sys	0m0.488s
+Read 1 item
+
+real	27m2.802s
+user	26m47.441s
+sys	0m12.487s
+
+real	0m33.552s
+user	0m33.377s
+sys	0m0.028s
+
+real	0m1.537s
+user	0m1.045s
+sys	0m0.488s
+Read 1 item
+
+real	26m58.799s
+user	26m42.978s
+sys	0m12.797s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/HAR1RDQ860410_180_60/final/HAR1RDQ860410_720_900.fa' is invalid or does not exist.
+
+
+real	0m0.088s
+user	0m0.052s
+sys	0m0.036s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/HAR1RDQ860410_180_60/final/HAR1RDQ860410_720_900.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.005s
+user	0m0.004s
+sys	0m0.000s
+Error: CT file with stochastic sample: HAR1RDQ860410_720_900.ct does not exist.
+Execution halted
+
+real	0m0.215s
+user	0m0.147s
+sys	0m0.061s

@@ -14,7 +14,7 @@ module load python/2.7.14
 module load R/3.5.1
 
 
-FILE=c_glabrata_2015-01-09.genes.txt
+FILE=temperatures.genes.greasy
 
 /apps/GREASY/2.2/INTEL/IMPI/bin/greasy $FILE
  

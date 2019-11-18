@@ -1,0 +1,186 @@
+mkdir: cannot create directory ‘mSRA_37_180_60/’: File exists
+mkdir: cannot create directory ‘mSRA_37_180_60/seq/’: File exists
+mkdir: cannot create directory ‘mSRA_37_180_60/tab’: File exists
+mkdir: cannot create directory ‘mSRA_37_180_60/res’: File exists
+mkdir: cannot create directory ‘mSRA_37_180_60/final’: File exists
+
+real	0m20.041s
+user	0m14.337s
+sys	0m2.036s
+
+real	0m0.198s
+user	0m0.103s
+sys	0m0.062s
+
+real	0m2.706s
+user	0m2.586s
+sys	0m0.112s
+
+real	0m0.948s
+user	0m0.373s
+sys	0m0.566s
+Read 1 item
+
+real	43m53.292s
+user	43m26.334s
+sys	0m14.232s
+
+real	0m3.177s
+user	0m2.915s
+sys	0m0.059s
+
+real	0m1.537s
+user	0m0.986s
+sys	0m0.485s
+Read 1 item
+
+real	43m16.316s
+user	42m51.816s
+sys	0m14.471s
+
+real	0m5.443s
+user	0m5.117s
+sys	0m0.040s
+
+real	0m2.066s
+user	0m1.170s
+sys	0m0.502s
+Read 1 item
+
+real	44m2.912s
+user	43m36.363s
+sys	0m14.576s
+
+real	0m5.561s
+user	0m5.493s
+sys	0m0.040s
+
+real	0m1.669s
+user	0m1.193s
+sys	0m0.471s
+Read 1 item
+
+real	43m40.011s
+user	43m12.920s
+sys	0m14.067s
+
+real	0m4.233s
+user	0m3.776s
+sys	0m0.020s
+
+real	0m1.323s
+user	0m0.683s
+sys	0m0.506s
+Read 1 item
+
+real	45m20.247s
+user	44m24.982s
+sys	0m14.411s
+
+real	0m5.323s
+user	0m4.738s
+sys	0m0.028s
+
+real	0m3.357s
+user	0m2.452s
+sys	0m0.503s
+Read 1 item
+
+real	46m41.628s
+user	45m38.166s
+sys	0m14.205s
+
+real	0m3.152s
+user	0m3.052s
+sys	0m0.044s
+
+real	0m3.145s
+user	0m2.600s
+sys	0m0.539s
+Read 1 item
+
+real	45m32.145s
+user	44m57.969s
+sys	0m14.275s
+
+real	0m4.621s
+user	0m4.562s
+sys	0m0.040s
+
+real	0m2.413s
+user	0m1.906s
+sys	0m0.501s
+Read 1 item
+
+real	44m18.524s
+user	43m34.865s
+sys	0m14.493s
+
+real	0m20.562s
+user	0m20.494s
+sys	0m0.032s
+
+real	0m2.251s
+user	0m1.658s
+sys	0m0.540s
+Read 1 item
+
+real	42m5.944s
+user	41m23.608s
+sys	0m14.591s
+
+real	0m24.782s
+user	0m23.929s
+sys	0m0.044s
+
+real	0m2.327s
+user	0m1.789s
+sys	0m0.493s
+Read 1 item
+
+real	44m0.578s
+user	43m14.575s
+sys	0m14.845s
+
+real	0m14.644s
+user	0m14.034s
+sys	0m0.036s
+
+real	0m1.925s
+user	0m1.361s
+sys	0m0.543s
+Read 1 item
+
+real	43m17.472s
+user	42m41.952s
+sys	0m14.695s
+
+real	0m15.249s
+user	0m15.177s
+sys	0m0.040s
+
+real	0m2.692s
+user	0m1.867s
+sys	0m0.476s
+Read 1 item
+
+real	41m23.636s
+user	40m44.375s
+sys	0m14.736s
+
+real	0m1.811s
+user	0m1.770s
+sys	0m0.028s
+
+real	0m0.649s
+user	0m0.236s
+sys	0m0.409s
+Read 1 item
+
+real	19m33.619s
+user	19m10.777s
+sys	0m8.723s
+No such file or directory
+mv: cannot stat '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/mSRA_37_180_60/res/*_*.SHAPE': No such file or directory
+ls: cannot access '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/mSRA_37_180_60/final/*SHAPE': No such file or directory
+ls: cannot access '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/mSRA_37_180_60/final/*.ct': No such file or directory

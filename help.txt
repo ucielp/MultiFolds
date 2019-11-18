@@ -44,18 +44,29 @@ squeue
 https://userportal.bsc.es/
 
 
-########## GREASY temperatures
+####################
+## Temperatures   ##
+####################
+
+########## GREASY 
+
+# RUN LOCALLY
 # Tengo que mejorar esto
 cd /home/uchorostecki/lab/uchorostecki/projects/MULTI-FOLDS/nextPARS/temperatures/processing/tab_files/23_degrees
 
 
 # Look for all the genes that are in the all the temp (6 of them)
-cut -f 1 *temp | sort | uniq -c | sort |  grep '^      6' | cut -f8 -d " " > /home/uchorostecki/lab/uchorostecki/software/MultiFolds/genes/23degree.genes
+cut -f 1 *temp | sort | uniq -c | sort |  grep '^      6' | cut -f8 -d " " > /home/uchorostecki/lab/uchorostecki/software/MultiFolds/genes/temperatures.genes
 
 cd /home/uchorostecki/lab/uchorostecki/software/MultiFolds/scripts
-./generate_greasy_jobs.sh 23degree.genes
-# tengo que mover 23degree.genes acá
 
+./generate_greasy_jobs.sh temperatures.genes
+
+# tengo que mover temperatures.genes.greasy acá
+
+mv ../jobs/temperatures.genes.greasy ../.
+
+# RUN IN THE CLUSTER
 cd /gpfs/projects/bsc40/uchorostecki/software/MultiFolds
 sbatch job_script_greasy.sh
 squeue

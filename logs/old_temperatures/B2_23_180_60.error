@@ -1,0 +1,42 @@
+rm: cannot remove 'B2.tmp.out': No such file or directory
+
+real	0m37.221s
+user	0m13.459s
+sys	0m5.373s
+Traceback (most recent call last):
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows.py", line 54, in <module>
+    main()
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/slidirm: cannot remove 'B2.tmp.out': No such file or directory
+
+real	0m22.072s
+user	0m12.680s
+sys	0m3.647s
+Traceback (most recent call last):
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows.py", line 54, in <module>
+    main()
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows.py", line 50, in main
+    process_fasta(args.infile,int(args.window),int(args.step))
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows.py", line 35, in process_fasta
+    for i in mygenerator:
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows.py", line 16, in slidingWindow
+    raise Exception("**ERROR** winSize must not be larger than sequence length.")
+Exception: **ERROR** winSize must not be larger than sequence length.
+Traceback (most recent call last):
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows_nextPARSE_score.py", line 58, in <module>
+    main()
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows_nextPARSE_score.py", line 54, in main
+    process_tab(args.infile,int(args.window),int(args.step))
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows_nextPARSE_score.py", line 39, in process_tab
+    for i in mygenerator:
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows_nextPARSE_score.py", line 16, in slidingWindow
+    raise Exception("**ERROR** winSize must not be larger than sequence length.")
+Exception: **ERROR** winSize must not be larger than sequence length.
+
+real	0m0.053s
+user	0m0.028s
+sys	0m0.024s
+ls: cannot access '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/23_degrees/B2_23_180_60/res/splited_*': No such file or directory
+mv: cannot stat '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/23_degrees/B2_23_180_60/res/*_*.SHAPE': No such file or directory
+mv: cannot stat '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/23_degrees/B2_23_180_60/res/*_*.fa': No such file or directory
+ls: cannot access '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/23_degrees/B2_23_180_60/final/*SHAPE': No such file or directory
+ls: cannot access '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/23_degrees/B2_23_180_60/final/*.ct': No such file or directory

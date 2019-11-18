@@ -1,0 +1,342 @@
+rm: cannot remove '373_BRAVEHEART.tmp.out': No such file or directory
+
+real	0m38.612s
+user	0m15.939s
+sys	0m5.481s
+
+real	0m0.194s
+user	0m0.093s
+sys	0m0.097s
+
+real	0m4.070s
+user	0m4.020s
+sys	0m0.044s
+
+real	0m2.380s
+user	0m1.509s
+sys	0m0.855s
+Read 1 item
+Error in scan(file = file, what = what, sep = sep, quote = quote, dec = dec,  : 
+  line 69 did not have 6 elements
+Calls: as.matrix -> read.table -> scan
+Execution halted
+
+real	0m18.803s
+user	0m15.328s
+sys	0m3.040s
+
+real	0m3.413s
+user	0m3.074s
+sys	0m0.040s
+
+real	0m2.093s
+user	0m1.382s
+sys	0m0.707s
+Read 1 item
+
+real	43m40.518s
+user	43m15.034s
+sys	0m14.128s
+
+real	0m4.078s
+user	0m3.701s
+sys	0m0.
+real	46m4.475s
+user	45m1.528s
+sys	0m14.121s
+
+real	0m3.339s
+real	44m7.951s
+user	43m41.140s
+sys	0m15.729s
+
+real	0m10.903s
+user	0m10.536s
+sys	0
+real	45m58.785s
+user	44m53.776s
+sys	0m14.908s
+
+real	0m3.817s
+
+real	46m15.526s
+user	45m6.595s
+sys	0m15.006s
+
+real	0m3.006s
+user	0m2.618s
+sys	0m
+real	46m4.969s
+user	45m2.612s
+sys	0m15.027s
+
+real	0m3.013s
+u
+real	44m30.331s
+user	44m0.580s
+sys	0m13.564s
+
+real	0m5.020s
+user	0m4.735s
+sys	0
+real	46m29.245s
+user	45m24.056s
+sys	0m14.344s
+
+real	0m5.382s
+
+real	45m18.652s
+user	44m21.696s
+sys	0m14.983s
+
+real	0m20.909s
+user	0m20.047s
+sys
+real	45m19.526s
+user	44m44.441s
+sys	0m15.246s
+
+real	0m2.900s
+us
+real	46m52.255s
+user	45m50.857s
+sys	0m14.207s
+
+real	0m4.821s
+user	0m4.523s
+sys
+real	45m43.547s
+user	45m18.737s
+sys	0m14.945s
+
+real	0m14.937s
+u
+real	17m59.935s
+user	17m34.255s
+sys	0m8.518s
+
+real	0m9.449s
+user	0m9.143s
+sys	0m
+real	45m23.400s
+user	44m51.774s
+sys	0m15.093s
+
+real	0m4.613s
+real	43m48.795s
+user	43m1.722s
+sys	0m14.581s
+
+real	0m3.874s
+user	0m3.821s
+sys	0m0
+real	17m54.353s
+user	17m26.321s
+sys	0m9.209s
+
+real	0m3.261s
+real	42m29.018s
+user	41m49.902s
+sys	0m14.226s
+
+real	0m19.498s
+user	0m19.285s
+sys	
+real	41m10.514s
+user	40m36.656s
+sys	0m14.526s
+
+real	0m4.117s
+u
+real	38m19.814s
+user	37m46.293s
+sys	0m14.001s
+
+real	0m2.975s
+user	0m2.908s
+sys	
+real	39m2.595s
+user	38m33.036s
+sys	0m14.085s
+
+real	0m21.474s
+u
+real	35m37.819s
+user	35m10.064s
+sys	0m14.500s
+
+real	0m20.833s
+user	0m20.768s
+sys
+real	43m50.293s
+user	42m56.794s
+sys	0m15.301s
+
+real	0m3.985s
+us
+real	35m41.915s
+user	35m3.087s
+sys	0m14.188s
+
+real	0m22.722s
+user	0m22.577s
+sy
+real	38m0.568s
+user	37m18.563s
+sys	0m15.070s
+
+real	0m20.956s
+use
+real	42m52.682s
+user	42m5.814s
+sys	0m14.480s
+
+real	0m3.512s
+user	0m2.986s
+sys	
+real	42m17.259s
+user	41m31.788s
+sys	0m15.334s
+
+real	0m22.336s
+
+real	37m48.570s
+user	37m3.775s
+sys	0m15.284s
+
+real	0m3.994s
+user	0m3.587s
+sys	0m0
+real	27m25.151s
+user	27m0.191s
+sys	0m14.604s
+
+real	0m3.070s
+real	37m6.391s
+user	36m23.167s
+sys	0m14.297s
+
+real	0m9.905s
+user	0m9.186s
+sys	0m0.040s
+
+real	0m1.425s
+user	0m0.918s
+sys	0m0.491s
+Read 1 item
+
+real	33m59.377s
+user	33m26.870s
+sys	0m13.947s
+
+real	0m3.863s
+user	0m3.686s
+sys	0m0.036s
+
+real	0m1.719s
+user	0m1.199s
+sys	0m0.506s
+Read 1 item
+
+real	33m27.981s
+user	32m51.527s
+sys	0m13.381s
+
+real	0m22.753s
+user	0m22.384s
+sys	0m0.024s
+
+real	0m3.355s
+user	0m2.808s
+sys	0m0.478s
+Read 1 item
+
+real	37m7.850s
+user	36m30.146s
+sys	0m14.418s
+
+real	0m19.883s
+user	0m19.170s
+sys	0m0.056s
+
+real	0m1.733s
+user	0m1.224s
+sys	0m0.504s
+Read 1 item
+
+real	39m9.585s
+user	38m37.996s
+sys	0m14.186s
+
+real	0m21.285s
+user	0m21.160s
+sys	0m0.040s
+
+real	0m2.371s
+user	0m1.861s
+sys	0m0.504s
+Read 1 item
+
+real	39m17.249s
+user	38m54.897s
+sys	0m14.575s
+
+real	0m3.321s
+user	0m3.087s
+sys	0m0.048s
+
+real	0m0.970s
+user	0m0.366s
+sys	0m0.483s
+Read 1 item
+
+real	41m6.167s
+user	40m21.335s
+sys	0m13.774s
+
+real	0m23.032s
+user	0m22.990s
+sys	0m0.032s
+
+real	0m2.182s
+user	0m1.689s
+sys	0m0.488s
+Read 1 item
+
+real	39m3.221s
+user	38m16.090s
+sys	0m14.089s
+
+real	0m3.516s
+user	0m3.012s
+sys	0m0.035s
+
+real	0m1.596s
+user	0m0.700s
+sys	0m0.462s
+Read 1 item
+
+real	32m25.306s
+user	31m53.947s
+sys	0m13.917s
+3s
+user	0m1.698s
+sys	0m0.495s
+Read 1 item
+
+real	37m53.444s
+user	37m17.047s
+sys	0m14.862s
+
+real	0m3.548s
+user	0m2.972s
+sys	0m0.031s
+
+real	0m1.178s
+user	0m0.659s
+sys	0m0.514s
+Read 1 item
+
+real	30m44.497s
+user	30m19.613s
+sys	0m14.077s

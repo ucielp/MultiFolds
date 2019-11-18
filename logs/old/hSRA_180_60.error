@@ -1,0 +1,185 @@
+
+real	0m35.410s
+user	0m13.205s
+sys	0m4.895s
+
+real	0m0.147s
+user	0m0.100s
+sys	0m0.044s
+
+real	0m32.265s
+user	0m32.169s
+sys	0m0.040s
+
+real	0m3.126s
+user	0m2.647s
+sys	0m0.476s
+Read 1 item
+
+real	29m45.964s
+user	29m27.267s
+sys	0m13.021s
+
+real	0m22.244s
+user	0m22.206s
+sys	0m0.028s
+
+real	0m2.771s
+user	0m2.306s
+sys	0m0.461s
+Read 1 item
+
+real	29m22.549s
+user	29m7.115s
+sys	0m13.462s
+
+real	0m14.386s
+user	0m14.333s
+sys	0m0.036s
+
+real	0m1.952s
+user	0m1.470s
+sys	0m0.477s
+Read 1 item
+
+real	30m16.190s
+user	30m1.388s
+sys	0m13.459s
+
+real	0m18.303s
+user	0m18.254s
+sys	0m0.044s
+
+real	0m1.548s
+user	0m1.036s
+sys	0m0.508s
+Read 1 item
+
+real	29m53.526s
+user	29m37.239s
+sys	0m13.318s
+
+real	0m3.328s
+user	0m3.253s
+sys	0m0.056s
+
+real	0m1.084s
+user	0m0.617s
+sys	0m0.461s
+Read 1 item
+
+real	26m57.268s
+user	26m36.903s
+sys	0m12.331s
+
+real	0m23.151s
+user	0m23.042s
+sys	0m0.024s
+
+real	0m2.050s
+user	0m1.529s
+sys	0m0.507s
+Read 1 item
+
+real	26m4.246s
+user	25m43.576s
+sys	0m12.761s
+
+real	0m33.228s
+user	0m33.074s
+sys	0m0.028s
+
+real	0m1.363s
+user	0m0.884s
+sys	0m0.470s
+Read 1 item
+
+real	26m0.779s
+user	25m45.074s
+sys	0m11.635s
+
+real	0m12.007s
+user	0m11.933s
+sys	0m0.024s
+
+real	0m2.950s
+user	0m2.441s
+sys	0m0.504s
+Read 1 item
+
+real	26m0.795s
+user	25m46.273s
+sys	0m12.382s
+
+real	0m2.939s
+user	0m2.831s
+sys	0m0.048s
+
+real	0m0.919s
+user	0m0.444s
+sys	0m0.472s
+Read 1 item
+
+real	25m57.448s
+user	25m44.471s
+sys	0m11.820s
+
+real	0m36.777s
+user	0m36.680s
+sys	0m0.048s
+
+real	0m2.567s
+user	0m2.066s
+sys	0m0.496s
+Read 1 item
+
+real	25m54.897s
+user	25m41.189s
+sys	0m11.176s
+
+real	0m7.025s
+user	0m6.981s
+sys	0m0.032s
+
+real	0m2.023s
+user	0m1.508s
+sys	0m0.510s
+Read 1 item
+
+real	25m52.524s
+user	25m39.604s
+sys	0m11.858s
+
+real	0m5.173s
+user	0m5.149s
+sys	0m0.020s
+
+real	0m2.482s
+user	0m2.011s
+sys	0m0.468s
+Read 1 item
+
+real	26m3.708s
+user	25m50.806s
+sys	0m11.785s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/hSRA_180_60/final/hSRA_720_900.fa' is invalid or does not exist.
+
+
+real	0m0.090s
+user	0m0.064s
+sys	0m0.024s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/hSRA_180_60/final/hSRA_720_900.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.005s
+user	0m0.000s
+sys	0m0.004s
+Error: CT file with stochastic sample: hSRA_720_900.ct does not exist.
+Execution halted
+
+real	0m0.218s
+user	0m0.168s
+sys	0m0.042s

@@ -1,0 +1,54 @@
+rm: cannot remove 'TETp4p6.tmp.out': No such file or directory
+Traceback (most recent call last):
+  File "get_combined_score.py", line 1023, in <module>
+    main()
+  File "get_combined_score.py", line 699, in main
+    rnn = open("%s.RNN.tab_tmp" %molname)
+IOError: [Errno 2] No such file or directory: 'TETp4p6.RNN.tab_tmp'
+
+real	0m36.614s
+user	0m13.476s
+sys	0
+real	0m22.190s
+user	0m12.632s
+sys	0m3.685s
+Traceback (most recent call last):
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows.py", line 54, in <module>
+    main()
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows.py", line 50, in main
+    process_fasta(args.infile,int(args.window),int(args.step))
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows.py", line 35, in process_fasta
+    for i in mygenerator:
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows.py", line 16, in slidingWindow
+    raise Exception("**ERROR** winSize must not be larger than sequence length.")
+Exception: **ERROR** winSize must not be larger than sequence length.
+Traceback (most recent call last):
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows_nextPARSE_score.py", line 58, in <module>
+    main()
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows_nextPARSE_score.py", line 54, in main
+    process_tab(args.infile,int(args.window),int(args.step))
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows_nextPARSE_score.py", line 39, in process_tab
+    for i in mygenerator:
+  File "/gpfs/projects/bsc40/uchorostecki/software/MultiFolds/scripts/sliding_windows_nextPARSE_score.py", line 16, in slidingWindow
+    raise Exception("**ERROR** winSize must not be larger than sequence length.")
+Exception: **ERROR** winSize must not be larger than sequence length.
+
+real	0m0.076s
+user	0m0.009s
+sys	0m0.065s
+ls: cannot access '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/23_degrees/TETp4p6_23_180_60/res/splited_*': No such file or directory
+mv: cannot stat '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/23_degrees/TETp4p6_23_180_60/res/*_*.SHAPE': No such file or directory
+mv: cannot stat '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/23_degrees/TETp4p6_23_180_60/res/*_*.fa': No such file or directory
+ls: cannot access '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/23_degrees/TETp4p6_23_180_60/final/*SHAPE': No such file or directory
+ls: cannot access '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/23_degrees/TETp4p6_23_180_60/final/*.ct': No such file or directory
+oes not exist: 'TETp4p6.RNN_NP_ONLY.csv'
+
+real	0m0.052s
+user	0m0.023s
+sys	0m0.026s
+split: cannot open 'TETp4p6.SHAPE' for reading: No such file or directory
+ls: cannot access '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/23_degrees/TETp4p6_23_180_60/res/splited_*': No such file or directory
+mv: cannot stat '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/23_degrees/TETp4p6_23_180_60/res/*_*.SHAPE': No such file or directory
+mv: cannot stat '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/23_degrees/TETp4p6_23_180_60/res/*_*.fa': No such file or directory
+ls: cannot access '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/23_degrees/TETp4p6_23_180_60/final/*SHAPE': No such file or directory
+ls: cannot access '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/23_degrees/TETp4p6_23_180_60/final/*.ct': No such file or directory

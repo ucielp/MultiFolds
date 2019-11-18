@@ -1,0 +1,211 @@
+
+real	0m35.484s
+user	0m13.252s
+sys	0m5.334s
+
+real	0m0.143s
+user	0m0.107s
+sys	0m0.033s
+
+real	0m20.455s
+user	0m20.410s
+sys	0m0.032s
+
+real	0m1.966s
+user	0m1.413s
+sys	0m0.548s
+Read 1 item
+
+real	29m14.725s
+user	28m58.938s
+sys	0m12.925s
+
+real	0m16.599s
+user	0m16.542s
+sys	0m0.048s
+
+real	0m1.614s
+user	0m1.155s
+sys	0m0.455s
+Read 1 item
+
+real	29m9.614s
+user	28m55.172s
+sys	0m12.819s
+
+real	0m13.226s
+user	0m13.163s
+sys	0m0.040s
+
+real	0m1.357s
+user	0m0.861s
+sys	0m0.492s
+Read 1 item
+
+real	29m41.702s
+user	29m27.482s
+sys	0m12.199s
+
+real	0m2.813s
+user	0m2.797s
+sys	0m0.012s
+
+real	0m2.538s
+user	0m2.036s
+sys	0m0.496s
+Read 1 item
+
+real	29m5.731s
+user	28m50.280s
+sys	0m13.970s
+
+real	0m3.245s
+user	0m3.197s
+sys	0m0.040s
+
+real	0m1.860s
+user	0m1.399s
+sys	0m0.456s
+Read 1 item
+
+real	29m9.033s
+user	28m54.785s
+sys	0m13.436s
+
+real	0m9.004s
+user	0m8.960s
+sys	0m0.040s
+
+real	0m1.385s
+user	0m0.907s
+sys	0m0.471s
+Read 1 item
+
+real	29m19.468s
+user	29m2.259s
+sys	0m13.471s
+
+real	0m15.530s
+user	0m15.467s
+sys	0m0.048s
+
+real	0m2.150s
+user	0m1.697s
+sys	0m0.448s
+Read 1 item
+
+real	29m24.724s
+user	29m9.210s
+sys	0m13.573s
+
+real	0m7.936s
+user	0m7.896s
+sys	0m0.036s
+
+real	0m1.950s
+user	0m1.461s
+sys	0m0.483s
+Read 1 item
+
+real	26m59.427s
+user	26m42.315s
+sys	0m13.876s
+
+real	0m9.782s
+user	0m9.757s
+sys	0m0.020s
+
+real	0m1.286s
+user	0m0.776s
+sys	0m0.506s
+Read 1 item
+
+real	27m5.774s
+user	26m48.738s
+sys	0m12.734s
+
+real	0m30.844s
+user	0m30.705s
+sys	0m0.028s
+
+real	0m3.072s
+user	0m2.604s
+sys	0m0.462s
+Read 1 item
+
+real	27m6.946s
+user	26m51.868s
+sys	0m12.582s
+
+real	0m2.712s
+user	0m2.662s
+sys	0m0.044s
+
+real	0m1.557s
+user	0m1.077s
+sys	0m0.476s
+Read 1 item
+
+real	26m59.444s
+user	26m44.930s
+sys	0m12.935s
+
+real	0m11.987s
+user	0m11.959s
+sys	0m0.024s
+
+real	0m2.342s
+user	0m1.837s
+sys	0m0.499s
+Read 1 item
+
+real	26m54.901s
+user	26m38.899s
+sys	0m13.127s
+
+real	0m2.873s
+user	0m2.828s
+sys	0m0.040s
+
+real	0m2.422s
+user	0m1.978s
+sys	0m0.439s
+Read 1 item
+
+real	25m34.831s
+user	25m19.074s
+sys	0m12.332s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/VHA_0_mut_180_60/final/VHA_0_mut_780_960.fa' is invalid or does not exist.
+
+
+real	0m0.086s
+user	0m0.069s
+sys	0m0.016s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/VHA_0_mut_180_60/final/VHA_0_mut_780_960.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.005s
+user	0m0.000s
+sys	0m0.004s
+Error: CT file with stochastic sample: VHA_0_mut_780_960.ct does not exist.
+Execution halted
+
+real	0m0.210s
+user	0m0.171s
+sys	0m0.030s
+
+real	0m20.971s
+user	0m20.935s
+sys	0m0.028s
+
+real	0m1.874s
+user	0m1.421s
+sys	0m0.448s
+Read 1 item
+
+real	25m32.936s
+user	25m18.280s
+sys	0m11.348s

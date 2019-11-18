@@ -1,0 +1,94 @@
+
+real	0m35.199s
+user	0m12.812s
+sys	0m5.008s
+
+real	0m0.146s
+user	0m0.090s
+sys	0m0.054s
+
+real	0m3.274s
+user	0m3.108s
+sys	0m0.036s
+
+real	0m0.994s
+user	0m0.375s
+sys	0m0.615s
+Read 1 item
+
+real	29m32.148s
+user	29m14.868s
+sys	0m12.321s
+
+real	0m2.784s
+user	0m2.731s
+sys	0m0.036s
+
+real	0m2.051s
+user	0m1.499s
+sys	0m0.540s
+Read 1 item
+
+real	29m42.795s
+user	29m21.515s
+sys	0m13.156s
+
+real	0m18.487s
+user	0m18.285s
+sys	0m0.028s
+
+real	0m1.399s
+user	0m0.866s
+sys	0m0.523s
+Read 1 item
+
+real	29m17.153s
+user	28m56.544s
+sys	0m12.723s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/PRC2_mHotair_180_60/final/PRC2_mHotair_240_420.fa' is invalid or does not exist.
+
+
+real	0m0.090s
+user	0m0.073s
+sys	0m0.016s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/PRC2_mHotair_180_60/final/PRC2_mHotair_240_420.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.005s
+user	0m0.000s
+sys	0m0.004s
+Error: CT file with stochastic sample: PRC2_mHotair_240_420.ct does not exist.
+Execution halted
+
+real	0m0.223s
+user	0m0.166s
+sys	0m0.048s
+
+real	0m5.474s
+user	0m5.415s
+sys	0m0.032s
+
+real	0m1.563s
+user	0m1.069s
+sys	0m0.487s
+Read 1 item
+
+real	28m43.697s
+user	28m22.657s
+sys	0m13.634s
+
+real	0m3.172s
+user	0m3.120s
+sys	0m0.036s
+
+real	0m0.887s
+user	0m0.374s
+sys	0m0.505s
+Read 1 item
+
+real	26m32.825s
+user	26m17.529s
+sys	0m13.538s

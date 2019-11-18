@@ -1,0 +1,133 @@
+mkdir: cannot create directory ‘355_GAS5_37_180_60/’: File exists
+mkdir: cannot create directory ‘355_GAS5_37_180_60/seq/’: File exists
+mkdir: cannot create directory ‘355_GAS5_37_180_60/tab’: File exists
+mkdir: cannot create directory ‘355_GAS5_37_180_60/res’: File exists
+mkdir: cannot create directory ‘355_GAS5_37_180_60/final’: File exists
+
+real	0m20.102s
+user	0m14.149s
+sys	0m2.094s
+
+real	0m0.216s
+user	0m0.117s
+sys	0m0.060s
+
+real	0m9.279s
+user	0m9.142s
+sys	0m0.036s
+
+real	0m1.911s
+user	0m1.134s
+sys	0m0.747s
+Read 1 item
+
+real	45m50.883s
+user	44m58.798s
+sys	0m13.702s
+
+real	0m3.421s
+user	0m3.371s
+sys	0m0.024s
+
+real	0m1.557s
+user	0m1.060s
+sys	0m0.492s
+Read 1 item
+
+real	45m56.787s
+user	44m46.885s
+sys	0m15.545s
+
+real	0m6.361s
+user	0m6.238s
+sys	0m0.040s
+
+real	0m1.403s
+user	0m0.631s
+sys	0m0.481s
+Read 1 item
+
+real	46m0.353s
+user	44m57.027s
+sys	0m15.165s
+
+real	0m3.327s
+user	0m3.081s
+sys	0m0.044s
+
+real	0m2.744s
+user	0m1.966s
+sys	0m0.472s
+Read 1 item
+
+real	46m32.849s
+user	45m32.055s
+sys	0m14.259s
+
+real	0m6.106s
+user	0m6.031s
+sys	0m0.052s
+
+real	0m1.301s
+user	0m0.789s
+sys	0m0.509s
+Read 1 item
+
+real	46m19.598s
+user	45m12.453s
+sys	0m15.614s
+
+real	0m26.526s
+user	0m26.444s
+sys	0m0.056s
+
+real	0m1.506s
+user	0m1.011s
+sys	0m0.492s
+Read 1 item
+
+real	42m19.865s
+user	41m19.344s
+sys	0m11.828s
+
+real	0m23.011s
+user	0m22.278s
+sys	0m0.044s
+
+real	0m2.615s
+user	0m1.802s
+sys	0m0.529s
+Read 1 item
+
+real	45m11.122s
+user	44m44.088s
+sys	0m14.924s
+
+real	0m3.147s
+user	0m2.922s
+sys	0m0.035s
+
+real	0m1.633s
+user	0m0.996s
+sys	0m0.528s
+Read 1 item
+
+real	43m44.137s
+user	42m58.777s
+sys	0m15.034s
+e 1122, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/apps/PYTHON/2.7.14/INTEL/lib/python2.7/site-packages/pandas/io/parsers.py", line 1853, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 387, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 705, in pandas._libs.parsers.TextReader._setup_parser_source
+IOError: [Errno 2] File 355_GAS5.RNN_NP_ONLY.csv does not exist: '355_GAS5.RNN_NP_ONLY.csv'
+
+real	0m0.098s
+user	0m0.018s
+sys	0m0.043s
+split: cannot open '355_GAS5.SHAPE' for reading: No such file or directory
+ls: cannot access '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/355_GAS5_37_180_60/res/splited_*': No such file or directory
+mv: cannot stat '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/355_GAS5_37_180_60/res/*_*.SHAPE': No such file or directory
+ls: cannot access '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/355_GAS5_37_180_60/final/*SHAPE': No such file or directory
+ls: cannot access '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/355_GAS5_37_180_60/final/*.ct': No such file or directory

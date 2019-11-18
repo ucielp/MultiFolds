@@ -1,0 +1,346 @@
+mkdir: cannot create directory ‘NORAD7_37_180_60/’: File exists
+mkdir: cannot create directory ‘NORAD7_37_180_60/seq/’: File exists
+mkdir: cannot create directory ‘NORAD7_37_180_60/tab’: File exists
+mkdir: cannot create directory ‘NORAD7_37_180_60/res’: File exists
+mkdir: cannot create directory ‘NORAD7_37_180_60/final’: File exists
+
+real	0m21.243s
+user	0m13.707s
+sys	0m2.536s
+
+real	0m0.161s
+user	0m0.104s
+sys	0m0.050s
+
+real	0m10.207s
+user	0m10.144s
+sys	0m0.036s
+
+real	0m1.623s
+user	0m1.117s
+sys	0m0.497s
+Read 1 item
+
+real	39m3.508s
+user	38m49.189s
+sys	0m13.354s
+
+real	0m18.209s
+user	0m18.103s
+sys	0m0.036s
+
+real	0m2.232s
+user	0m1.753s
+sys	0m0.476s
+Read 1 item
+
+real	39m4.367s
+user	38m49.203s
+sys	0m13.914s
+
+real	0m19.840s
+user	0m19.775s
+sys	0m0.040s
+
+real	0m3.897s
+user	0m3.394s
+sys	0m0.496s
+Read 1 item
+
+real	38m8.179s
+user	37m52.708s
+sys	0m14.199s
+
+real	0m14.788s
+user	0m14.710s
+sys	0m0.052s
+
+real	0m1.804s
+user	0m1.325s
+sys	0m0.474s
+Read 1 item
+
+real	39m24.655s
+user	39m8.426s
+sys	0m14.872s
+
+real	0m11.714s
+user	0m11.657s
+sys	0m0.048s
+
+real	0m2.427s
+user	0m1.943s
+sys	0m0.480s
+Read 1 item
+
+real	38m51.270s
+user	38m35.989s
+sys	0m13.778s
+
+real	0m16.702s
+user	0m16.662s
+sys	0m0.024s
+
+real	0m1.178s
+user	0m0.621s
+sys	0m0.517s
+Read 1 item
+
+real	40m49.382s
+user	40m30.823s
+sys	0m15.097s
+
+real	0m19.125s
+user	0m19.011s
+sys	0m0.036s
+
+real	0m2.548s
+user	0m2.074s
+sys	0m0.469s
+Read 1 item
+
+real	38m53.971s
+user	38m36.717s
+sys	0m14.544s
+
+real	0m7.065s
+user	0m7.000s
+sys	0m0.032s
+
+real	0m1.110s
+user	0m0.593s
+sys	0m0.513s
+Read 1 item
+
+real	37m26.606s
+user	37m10.581s
+sys	0m14.738s
+
+real	0m3.072s
+user	0m2.966s
+sys	0m0.040s
+
+real	0m2.175s
+user	0m1.669s
+sys	0m0.503s
+Read 1 item
+
+real	32m27.113s
+user	32m12.225s
+sys	0m13.862s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD7_37_180_60/final/NORAD7_1440_1615.fa' is invalid or does not exist.
+
+
+real	0m0.092s
+user	0m0.079s
+sys	0m0.012s
+
+Input file not found.  The path '/gpfs/projects/bsc40/uchorostecki/projects/MULTI-FOLDS/multiple_conformations/37_degrees/NORAD7_37_180_60/final/NORAD7_1440_1615.out' is invalid or does not exist.
+
+Stochastic sampling complete with errors.
+
+real	0m0.005s
+user	0m0.000s
+sys	0m0.004s
+Error: CT file with stochastic sample: NORAD7_1440_1615.ct does not exist.
+Execution halted
+
+real	0m0.226s
+user	0m0.167s
+sys	0m0.049s
+
+real	0m18.303s
+user	0m18.198s
+sys	0m0.040s
+
+real	0m1.082s
+user	0m0.569s
+sys	0m0.509s
+Read 1 item
+
+real	31m49.726s
+user	31m33.682s
+sys	0m14.083s
+
+real	0m4.543s
+user	0m4.496s
+sys	0m0.040s
+
+real	0m1.320s
+user	0m0.804s
+sys	0m0.512s
+Read 1 item
+
+real	33m2.757s
+user	32m43.222s
+sys	0m14.231s
+
+real	0m8.777s
+user	0m8.747s
+sys	0m0.024s
+
+real	0m1.780s
+user	0m1.248s
+sys	0m0.526s
+Read 1 item
+
+real	32m4.816s
+user	31m49.140s
+sys	0m13.659s
+
+real	0m19.755s
+user	0m19.671s
+sys	0m0.040s
+
+real	0m1.086s
+user	0m0.619s
+sys	0m0.463s
+Read 1 item
+
+real	31m3.667s
+user	30m47.817s
+sys	0m13.682s
+
+real	0m3.606s
+user	0m3.552s
+sys	0m0.036s
+
+real	0m1.391s
+user	0m0.874s
+sys	0m0.513s
+Read 1 item
+
+real	28m38.388s
+user	28m23.426s
+sys	0m13.644s
+
+real	0m13.114s
+user	0m13.023s
+sys	0m0.032s
+
+real	0m2.219s
+user	0m1.700s
+sys	0m0.515s
+Read 1 item
+
+real	28m22.585s
+user	28m7.660s
+sys	0m14.263s
+
+real	0m17.729s
+user	0m17.652s
+sys	0m0.048s
+
+real	0m2.224s
+user	0m1.710s
+sys	0m0.509s
+Read 1 item
+
+real	28m53.807s
+user	28m39.059s
+sys	0m13.858s
+
+real	0m3.000s
+user	0m2.951s
+sys	0m0.032s
+
+real	0m2.034s
+user	0m1.551s
+sys	0m0.480s
+Read 1 item
+
+real	29m15.825s
+user	28m58.700s
+sys	0m13.917s
+
+real	0m21.828s
+user	0m21.783s
+sys	0m0.036s
+
+real	0m2.354s
+user	0m1.849s
+sys	0m0.500s
+Read 1 item
+
+real	29m15.543s
+user	28m59.837s
+sys	0m13.355s
+
+real	0m14.215s
+user	0m14.128s
+sys	0m0.036s
+
+real	0m2.210s
+user	0m1.706s
+sys	0m0.490s
+Read 1 item
+
+real	29m28.222s
+user	29m13.598s
+sys	0m13.477s
+
+real	0m22.673s
+user	0m22.564s
+sys	0m0.032s
+
+real	0m2.112s
+user	0m1.591s
+sys	0m0.515s
+Read 1 item
+
+real	29m33.583s
+user	29m19.145s
+sys	0m12.896s
+
+real	0m29.127s
+user	0m29.021s
+sys	0m0.028s
+
+real	0m1.348s
+user	0m0.819s
+sys	0m0.490s
+Read 1 item
+
+real	30m13.755s
+user	29m56.920s
+sys	0m13.301s
+
+real	0m4.697s
+user	0m4.657s
+sys	0m0.032s
+
+real	0m2.128s
+user	0m1.615s
+sys	0m0.500s
+Read 1 item
+
+real	29m41.894s
+user	29m23.320s
+sys	0m13.218s
+
+real	0m16.449s
+user	0m16.400s
+sys	0m0.036s
+
+real	0m2.683s
+user	0m2.190s
+sys	0m0.483s
+Read 1 item
+
+real	29m0.790s
+user	28m44.376s
+sys	0m13.079s
+
+real	0m2.737s
+user	0m2.690s
+sys	0m0.032s
+
+real	0m1.093s
+user	0m0.579s
+sys	0m0.511s
+Read 1 item
+
+real	29m48.131s
+user	29m32.078s
+sys	0m13.920s

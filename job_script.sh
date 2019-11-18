@@ -21,3 +21,7 @@ module load R/3.5.1
 ./multifolds_cluster.sh hSRA 181 61 > hSRA_181_61.out 2> hSRA_181_61.error
 ./multifolds_cluster.sh mSRA 181 61 > mSRA_181_61.out 2> mSRA_181_61.error
 ./multifolds_cluster.sh ROX2 181 61 > ROX2_181_61.out 2> ROX2_181_61.error
+
+# New version
+./multifolds_cluster.sh hSRA 55 180 60 > hSRA_55_180_60.out 2> hSRA_55_180_60.error
+./multifolds_cluster.sh hSRA 37 180 60 > hSRA_37_180_60.out 2> hSRA_37_180_60.error

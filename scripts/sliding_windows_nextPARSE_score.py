@@ -12,8 +12,8 @@ def slidingWindow(sequence,winSize,stepSize):
 		raise Exception("**ERROR** sequence must be iterable.")
 	if stepSize > winSize:
 		raise Exception("**ERROR** stepSize must not be larger than winSize.")
-	if winSize > len(sequence):
-		raise Exception("**ERROR** winSize must not be larger than sequence length.")
+	 # if winSize > len(sequence):
+		# raise Exception("**ERROR** winSize must not be larger than sequence length.")
  
 	numOfPieces = ((len(sequence)-winSize)//stepSize)+1
 	# Do the work
@@ -46,8 +46,8 @@ def main():
 	parser = argparse.ArgumentParser()
 	
 	parser.add_argument("-i","--input", dest="infile",  help = "input tab file", required = True)
-	parser.add_argument("-w","--window", dest="window", default=100, help="Define window size" )
-	parser.add_argument("-s","--step", dest="step", default=40,  help = "Define step size")
+	parser.add_argument("-w","--window", dest="window", default=120, help="Define window size" )
+	parser.add_argument("-s","--step", dest="step", default=60,  help = "Define step size")
 	args = parser.parse_args()
 
 	out_file = args.infile + ".outfile"

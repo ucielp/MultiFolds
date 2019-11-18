@@ -22,7 +22,7 @@ cd $myPATH
 dir_name=$mol_name"_"$temp"_"$window"_"$step
 mkdir $dir_name/; mkdir $dir_name/seq/; mkdir $dir_name/tab; mkdir $dir_name/res; mkdir $dir_name/final
 
-fasta_file='C_parapsilosis_plus_individual.fasta'
+fasta_file='C_parapsilosis_plus_individual_genes.fa'
 
 #################
 ### TAB FILES ###
@@ -61,8 +61,8 @@ done;
 
 
 cd $mainPATH/projects/MULTI-FOLDS/nextPARS/temperatures/processing/DB/
-myvar=$mol_name
-awk -v myvar="$myvar" '/^>/ { p = ($0 ~ /'$myvar'/)} p' $fasta_file > $myPATH/$dir_name/seq/$mol_name.fa
+grep -A 1 $mol_name\$ $fasta_file > $myPATH/$dir_name/seq/$mol_name.fa
+
 
 length=$(cat $myPATH/$dir_name/seq/$mol_name.fa | awk '$0 ~ ">" {print c; c=0; } $0 !~ ">" {c+=length($0);} END { print c; }')
 
@@ -126,8 +126,8 @@ a=0
 b=$window
 
 for splited_file in $(ls $myPATH/$dir_name/res/splited_* ); do
-	
-	if (( $length > b ))
+
+if (( $length > $b ))
 	then
 		new_splited_file="$mol_name"_"$a"_"$b".SHAPE
 		mv $splited_file $new_splited_file
@@ -152,12 +152,10 @@ mv $myPATH/$dir_name/res/*\_*.fa ../final/.
 #######   	Rsample		   ##########
 #####################################
 
-
 export DATAPATH=$programPATH/RNAstructure/data_tables/
 
-
 cd $programPATH/RNAstructure/exe
-	
+
 for shape_file in $(ls $myPATH/$dir_name/final/*SHAPE ); do
 
 	cd $programPATH/RNAstructure/exe

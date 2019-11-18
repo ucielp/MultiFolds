@@ -1,0 +1,113 @@
+mkdir: cannot create directory ‘ROX2_37_180_60/’: File exists
+mkdir: cannot create directory ‘ROX2_37_180_60/seq/’: File exists
+mkdir: cannot create directory ‘ROX2_37_180_60/tab’: File ex
+real	0m13.532s
+user	0m13.372s
+sys	0m0.072s
+
+real	0m1.388s
+user	0m0.912s
+sys	0m0.472s
+Read 1 item
+Error in confi[i, ] <- as.matrix(read.table(filename, header = FALSE,  : 
+  number of items to replace is not a multiple of replacement length
+Execution halted
+
+real	0m26.505s
+u
+real	0m1.321s
+user	0m0.780
+real	0m13.008s
+user	0m12.4
+real	45m52.049s
+user	44m50.582s
+sys	0m14.052s
+
+real	0m2.911s
+user	0m2.823s
+sys	0m0.036s
+
+real	0m2.690s
+user	0m2.153s
+sys	0m0.432s
+Read 1 item
+
+real	44m44.133s
+user	44m11.980s
+sys	0m14.916s
+
+real	0m3.143s
+user	0m3.100s
+sys	0m0.036s
+
+real	0m2.009s
+user	0m1.505s
+sys	0m0.498s
+Read 1 item
+
+real	44m24.663s
+user	43m57.386s
+sys	0m14.300s
+
+real	0m5.292s
+user	0m4.865s
+sys	0m0.024s
+
+real	0m1.622s
+user	0m1.129s
+sys	0m0.464s
+Read 1 item
+
+real	43m22.369s
+user	42m54.083s
+sys	0m14.700s
+
+real	0m8.753s
+user	0m8.6
+real	44m33.570s
+user	44m5.721s
+sys	0m13.944s
+
+real	0m13.168s
+user	0m12
+real	45m32.897s
+user	44m37.009s
+sys	0m14.286s
+
+real	0m13.141s
+user	0m12.
+real	45m36.933s
+user	44m38.446s
+sys	0m14.820s
+
+real	0m17.567s
+user	0m17
+real	47m0.719s
+user	45m55.872s
+sys	0m14.438s
+
+real	0m17.616s
+user	0m16.936s
+sys	0m0.036s
+
+real	0m2.000s
+user	0m1.367s
+sys	0m0.422s
+Read 1 item
+
+real	23m57.620s
+user	22m35.136s
+sys	1m9.158s
+
+real	0m20.388s
+user	0m20.067s
+sys	0m0.048s
+
+real	0m3.250s
+user	0m2.748s
+sys	0m0.497s
+Read 1 item
+
+real	45m0.752s
+user	44m18.513s
+sys	0m14.721s

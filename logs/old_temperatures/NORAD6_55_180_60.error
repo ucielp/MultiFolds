@@ -1,0 +1,411 @@
+mkdir: cannot create directory ‘NORAD6_55_180_60/’: File exists
+mkdir: cannot create directory ‘NORAD6_55_180_60/seq/’: File exists
+mkdir: cannot create directory ‘NORAD6_55_180_60/tab’: File exists
+mkdir: cannot create directory ‘N
+real	45m52.394s
+user	44m54.163s
+sys	0m14.641s
+
+real	0m10.561s
+user	0m9.629s
+sys	0m0.051s
+
+real	0m1.723s
+user	0m1.114s
+sys	0m0.601s
+Read 1 item
+
+real	46m0.037s
+user	44m54.390s
+sys	0m14.586s
+
+real	0m20.836s
+user	0m20.440s
+sys	0m0.040s
+
+real	0m3.621s
+user	0m2.890s
+sys	0m0.482s
+Read 1 item
+
+real	45m58.856s
+user	44m54.892s
+sys	0m14.746s
+
+real	0m3.571s
+user	0m3.268s
+sys	0m0.048s
+
+real	0m1.563s
+user	0m0.736s
+sys	0m0.495s
+Read 1 item
+
+real	46m9.900s
+user	45m9.822s
+sys	0m14.136s
+
+real	0m17.668s
+user	0m17.212s
+sys	0m0.044s
+
+real	0m2.213s
+user	0m1.563s
+sys	0m0.532s
+Read 1 item
+
+real	45m15.515s
+user	44m41.574s
+sys	0m15.342s
+
+real	0m3.498s
+user	0m3.000s
+sys	0m0.036s
+
+real	0m1.340s
+user	0m0.830s
+sys	0m0.503s
+Read 1 item
+
+real	46m33.932s
+user	46m4.187s
+sys	0m14.384s
+
+real	0m3.354s
+user	0m2.991s
+sys	0m0.044s
+
+real	0m1.649s
+user	0m0.886s
+sys	0m0.506s
+Read 1 item
+
+real	44m39.331s
+user	43m47.486s
+sys	0m14.961s
+
+real	0m26.009s
+user	0m25.506s
+sys	0m0.044s
+
+real	0m1.112s
+user	0m0.559s
+sys	0m0.547s
+Read 1 item
+
+real	42m41.234s
+user	42m2.021s
+sys	0m14.668s
+
+real	0m21.510s
+user	0m20.781s
+sys	0m0.048s
+
+real	0m1.579s
+user	0m0.762s
+sys	0m0.497s
+Read 1 item
+
+real	42m37.710s
+user	41m50.571s
+sys	0m15.326s
+
+real	0m27.994s
+user	0m26.463s
+sys	0m0.044s
+
+real	0m2.381s
+user	0m1.646s
+sys	0m0.532s
+Read 1 item
+
+real	37m53.996s
+user	37m19.690s
+sys	0m15.008s
+
+real	0m8.850s
+user	0m8.533s
+sys	0m0.048s
+
+real	0m1.825s
+user	0m1.259s
+sys	0m0.520s
+Read 1 item
+
+real	34m5.710s
+user	33m29.230s
+sys	0m14.339s
+
+real	0m31.790s
+user	0m30.915s
+sys	0m0.040s
+
+real	0m2.251s
+user	0m1.540s
+sys	0m0.463s
+Read 1 item
+
+real	40m59.762s
+user	40m10.043s
+sys	0m14.450s
+
+real	0m15.082s
+user	0m14.865s
+sys	0m0.048s
+
+real	0m1.771s
+user	0m1.279s
+sys	0m0.449s
+Read 1 item
+
+real	39m31.758s
+user	38m53.934s
+sys	0m15.212s
+
+real	0m18.967s
+user	0m18.009s
+sys	0m0.032s
+
+real	0m2.928s
+user	0m2.376s
+sys	0m0.494s
+Read 1 item
+
+real	28m52.970s
+user	28m31.235s
+sys	0m12.740s
+
+real	0m11.796s
+user	0m11.737s
+sys	0m0.036s
+
+real	0m1.515s
+user	0m1.215s
+sys	0m0.292s
+Read 1 item
+
+real	12m49.676s
+user	12m9.586s
+sys	0m35.516s
+
+real	0m11.423s
+user	0m11.101s
+sys	0m0.048s
+
+real	0m2.139s
+user	0m1.481s
+sys	0m0.530s
+Read 1 item
+
+real	33m18.753s
+user	32m47.511s
+sys	0m14.638s
+
+real	0m5.913s
+user	0m5.649s
+sys	0m0.040s
+
+real	0m1.779s
+user	0m1.232s
+sys	0m0.479s
+Read 1 item
+
+real	32m4.086s
+user	31m34.032s
+sys	0m14.206s
+
+real	0m6.347s
+user	0m6.102s
+sys	0m0.032s
+
+real	0m1.534s
+user	0m0.954s
+sys	0m0.508s
+Read 1 item
+
+real	34m16.797s
+user	33m40.485s
+sys	0m14.354s
+
+real	0m21.422s
+user	0m20.840s
+sys	0m0.036s
+
+real	0m2.715s
+user	0m2.071s
+sys	0m0.488s
+Read 1 item
+
+real	38m26.862s
+user	37m51.522s
+sys	0m14.705s
+
+real	0m2.760s
+user	0m2.629s
+sys	0m0.032s
+
+real	0m2.201s
+user	0m1.445s
+sys	0m0.490s
+Read 1 item
+
+real	38m35.738s
+user	38m15.126s
+sys	0m14.398s
+
+real	0m19.688s
+user	0m19.600s
+sys	0m0.040s
+
+real	0m3.147s
+user	0m2.495s
+sys	0m0.474s
+Read 1 item
+
+real	39m41.231s
+user	38m57.870s
+sys	0m15.074s
+
+real	0m2.789s
+user	0m2.467s
+sys	0m0.047s
+
+real	0m2.197s
+user	0m1.415s
+sys	0m0.525s
+Read 1 item
+
+real	38m52.165s
+user	38m11.679s
+sys	0m14.795s
+
+real	0m24.689s
+user	0m24.439s
+sys	0m0.040s
+
+real	0m2.717s
+user	0m1.942s
+sys	0m0.438s
+Read 1 item
+
+real	36m39.353s
+user	36m4.035s
+sys	0m14.257s
+
+real	0m4.736s
+user	0m4.652s
+sys	0m0.048s
+
+real	0m1.634s
+user	0m0.979s
+sys	0m0.512s
+Read 1 item
+
+real	31m2.472s
+user	30m35.226s
+sys	0m14.396s
+
+real	0m12.339s
+user	0m11.720s
+sys	0m0.036s
+
+real	0m2.077s
+user	0m1.589s
+sys	0m0.475s
+Read 1 item
+
+real	31m3.990s
+user	30m35.826s
+sys	0m13.935s
+
+real	0m22.574s
+user	0m22.448s
+sys	0m0.064s
+
+real	0m2.351s
+user	0m1.809s
+sys	0m0.530s
+Read 1 item
+
+real	30m20.455s
+user	29m52.712s
+sys	0m13.695s
+
+real	0m19.311s
+user	0m18.928s
+sys	0m0.044s
+
+real	0m1.796s
+user	0m1.282s
+sys	0m0.486s
+Read 1 item
+
+real	31m56.111s
+user	31m15.173s
+sys	0m15.116s
+
+real	0m25.769s
+user	0m25.357s
+sys	0m0.052s
+
+real	0m1.057s
+user	0m0.563s
+sys	0m0.487s
+Read 1 item
+
+real	32m53.120s
+user	32m8.232s
+sys	0m13.368s
+
+real	0m5.858s
+user	0m5.582s
+sys	0m0.028s
+
+real	0m1.546s
+user	0m0.913s
+sys	0m0.481s
+Read 1 item
+
+real	28m17.018s
+user	27m43.557s
+sys	0m12.743s
+
+real	0m4.207s
+user	0m3.800s
+sys	0m0.043s
+
+real	0m1.979s
+user	0m1.394s
+sys	0m0.503s
+Read 1 item
+
+real	31m9.828s
+user	30m52.279s
+sys	0m13.959s
+0m11.882s
+
+real	0m19.422s
+user	0m19.365s
+sys	0m0.024s
+
+real	0m1.439s
+user	0m0.960s
+sys	0m0.474s
+Read 1 item
+
+real	25m48.138s
+user	25m33.432s
+sys	0m12.687s
+
+real	0m3.783s
+user	0m3.737s
+sys	0m0.040s
+
+real	0m1.916s
+user	0m1.384s
+sys	0m0.528s
+Read 1 item
+
+real	25m43.195s
+user	25m28.929s
+sys	0m12.449s

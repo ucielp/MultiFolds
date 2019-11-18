@@ -1,0 +1,116 @@
+mkdir: cannot create directory ‘ROX2_55_180_60/’: File exists
+mkdir: cannot create directory ‘ROX2_55_180_60/seq/’: File exists
+mkdir: cannot create directory ‘ROX2_55_180_60/tab’: File exists
+mkdir: cannot create directory ‘ROX2_55_180_60/res’: File exists
+mkdir: cannot create directory ‘ROX2_55_180_60/f
+real	0m20.195s
+user	
+real	0m20.962s
+user	0m12.911s
+sys	0m2.705s
+
+real	0m0.141s
+user	0m0.093s
+sys	Error in read.table(filename, header = FALSE, nrows =
+real	0m1.469s
+user	0m0.888s
+sys	0m0.482s
+Read 1 item
+
+real	38m19.159s
+user	38m2.180s
+sys	0m13.576s
+
+real	0m12.272s
+user	0m12.206s
+sys	0m0.052s
+
+real	0m2.290s
+user	0m1.782s
+sys	0m0.496s
+Read 1 item
+
+real	37m48.173s
+user	37m30.774s
+sys	0m13.617s
+
+real	0m13.029s
+user	0m12.971s
+sys	0m0.044s
+
+real	0m1.847s
+user	0m1.336s
+sys	0m0.504s
+Read 1 item
+
+real	38m28.629s
+user	38m12.276s
+sys	0m14.068s
+
+real	0m4.827s
+user	0m4.758s
+sys	0m0.028s
+
+real	0m1.613s
+user	0m1.104s
+sys	0m0.490s
+Read 1 item
+
+real	39m4.284s
+user	38m39.857s
+sys	0m14.491s
+
+real	0m8.977s
+user	0m8.917s
+sys	0m0.036s
+
+real	0m2.160s
+user	0m1.637s
+sys	0m0.516s
+Read 1 item
+
+real	38m30.759s
+user	38m12.699s
+sys	0m15.146s
+
+real	0m12.580s
+user	0m12.507s
+sys	0m0.056s
+
+real	0m2.887s
+user	0m2.396s
+sys	0m0.479s
+Read 1 item
+
+real	40m19.402s
+user	40m1.434s
+sys	0m14.357s
+
+real	0m13.653s
+user	0m13.543s
+sys	0m0.036s
+
+real	0m1.906s
+user	0m1.489s
+sys	0m0.404s
+Read 1 item
+
+real	21m10.879s
+user	19m50.926s
+sys	1m8.959s
+
+real	0m20.596s
+user	0m20.484s
+sys	0m0.028s
+
+real	0m3.266s
+user	0m2.742s
+sys	0m0.499s
+Read 1 item
+
+real	38m49.978s
+user	38m30.204s
+sys	0m14.389s
+l	45m55.305s
+user	45m13.191s
+sys	0m15.498s

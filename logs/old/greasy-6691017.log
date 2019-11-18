@@ -1,0 +1,284 @@
+[2019-07-23 20:32:20] Start greasing /gpfs/projects/bsc40/uchorostecki/software/MultiFolds/c_glabrata_2015-01-09.genes.txt
+[2019-07-23 20:32:20] INFO: File with 91 correct Tasks
+[2019-07-23 20:32:20] INFO: MPI engine is ready to run with 96 workers
+[2019-07-23 20:32:20] INFO: Current Working Dir /gpfs/projects/bsc40/uchorostecki/software/MultiFolds
+[2019-07-23 20:32:20] INFO: Run on 2 nodes
+[2019-07-23 20:32:20] INFO: Job ID 6691017
+[2019-07-23 20:32:20] INFO: Allocating task 1 located in line 1 to Worker 1
+[2019-07-23 20:32:20] INFO: Allocating task 2 located in line 2 to Worker 2
+[2019-07-23 20:32:20] INFO: Allocating task 3 located in line 3 to Worker 3
+[2019-07-23 20:32:20] INFO: Allocating task 4 located in line 4 to Worker 4
+[2019-07-23 20:32:20] INFO: Allocating task 5 located in line 5 to Worker 5
+[2019-07-23 20:32:20] INFO: Allocating task 6 located in line 6 to Worker 6
+[2019-07-23 20:32:20] INFO: Allocating task 7 located in line 7 to Worker 7
+[2019-07-23 20:32:20] INFO: Allocating task 8 located in line 8 to Worker 8
+[2019-07-23 20:32:20] INFO: Allocating task 9 located in line 9 to Worker 9
+[2019-07-23 20:32:20] INFO: Allocating task 10 located in line 10 to Worker 10
+[2019-07-23 20:32:20] INFO: Allocating task 11 located in line 11 to Worker 11
+[2019-07-23 20:32:20] INFO: Allocating task 12 located in line 12 to Worker 12
+[2019-07-23 20:32:20] INFO: Worker 1 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 2 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 7 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 13 located in line 13 to Worker 13
+[2019-07-23 20:32:20] INFO: Worker 8 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 5 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 14 located in line 14 to Worker 14
+[2019-07-23 20:32:20] INFO: Worker 11 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 9 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 3 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 4 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 10 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 12 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 14 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 6 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 15 located in line 15 to Worker 15
+[2019-07-23 20:32:20] INFO: Allocating task 16 located in line 16 to Worker 16
+[2019-07-23 20:32:20] INFO: Allocating task 17 located in line 17 to Worker 17
+[2019-07-23 20:32:20] INFO: Allocating task 18 located in line 18 to Worker 18
+[2019-07-23 20:32:20] INFO: Allocating task 19 located in line 19 to Worker 19
+[2019-07-23 20:32:20] INFO: Allocating task 20 located in line 20 to Worker 20
+[2019-07-23 20:32:20] INFO: Allocating task 21 located in line 21 to Worker 21
+[2019-07-23 20:32:20] INFO: Allocating task 22 located in line 22 to Worker 22
+[2019-07-23 20:32:20] INFO: Allocating task 23 located in line 23 to Worker 23
+[2019-07-23 20:32:20] INFO: Worker 13 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 24 located in line 24 to Worker 24
+[2019-07-23 20:32:20] INFO: Allocating task 25 located in line 25 to Worker 25
+[2019-07-23 20:32:20] INFO: Allocating task 26 located in line 26 to Worker 26
+[2019-07-23 20:32:20] INFO: Allocating task 27 located in line 27 to Worker 27
+[2019-07-23 20:32:20] INFO: Allocating task 28 located in line 28 to Worker 28
+[2019-07-23 20:32:20] INFO: Allocating task 29 located in line 29 to Worker 29
+[2019-07-23 20:32:20] INFO: Worker 15 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 17 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 20 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 21 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 28 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 23 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 24 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 16 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 29 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 30 located in line 30 to Worker 30
+[2019-07-23 20:32:20] INFO: Worker 25 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 19 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 26 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 31 located in line 31 to Worker 31
+[2019-07-23 20:32:20] INFO: Worker 22 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 27 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 30 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 32 located in line 32 to Worker 32
+[2019-07-23 20:32:20] INFO: Worker 18 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 33 located in line 33 to Worker 33
+[2019-07-23 20:32:20] INFO: Allocating task 34 located in line 34 to Worker 34
+[2019-07-23 20:32:20] INFO: Allocating task 35 located in line 35 to Worker 35
+[2019-07-23 20:32:20] INFO: Allocating task 36 located in line 36 to Worker 36
+[2019-07-23 20:32:20] INFO: Allocating task 37 located in line 37 to Worker 37
+[2019-07-23 20:32:20] INFO: Allocating task 38 located in line 38 to Worker 38
+[2019-07-23 20:32:20] INFO: Worker 32 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 39 located in line 39 to Worker 39
+[2019-07-23 20:32:20] INFO: Worker 33 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 40 located in line 40 to Worker 40
+[2019-07-23 20:32:20] INFO: Allocating task 41 located in line 41 to Worker 41
+[2019-07-23 20:32:20] INFO: Worker 35 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 42 located in line 42 to Worker 42
+[2019-07-23 20:32:20] INFO: Worker 34 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 43 located in line 43 to Worker 43
+[2019-07-23 20:32:20] INFO: Worker 36 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 44 located in line 44 to Worker 44
+[2019-07-23 20:32:20] INFO: Allocating task 45 located in line 45 to Worker 45
+[2019-07-23 20:32:20] INFO: Allocating task 46 located in line 46 to Worker 46
+[2019-07-23 20:32:20] INFO: Worker 37 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 38 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 39 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 47 located in line 47 to Worker 47
+[2019-07-23 20:32:20] INFO: Worker 40 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 48 located in line 48 to Worker 48
+[2019-07-23 20:32:20] INFO: Allocating task 49 located in line 49 to Worker 49
+[2019-07-23 20:32:20] INFO: Allocating task 50 located in line 50 to Worker 50
+[2019-07-23 20:32:20] INFO: Allocating task 51 located in line 51 to Worker 51
+[2019-07-23 20:32:20] INFO: Allocating task 52 located in line 52 to Worker 52
+[2019-07-23 20:32:20] INFO: Worker 41 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 53 located in line 53 to Worker 53
+[2019-07-23 20:32:20] INFO: Allocating task 54 located in line 54 to Worker 54
+[2019-07-23 20:32:20] INFO: Worker 42 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 43 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 44 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 55 located in line 55 to Worker 55
+[2019-07-23 20:32:20] INFO: Worker 45 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 56 located in line 56 to Worker 56
+[2019-07-23 20:32:20] INFO: Allocating task 57 located in line 57 to Worker 57
+[2019-07-23 20:32:20] INFO: Worker 46 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 58 located in line 58 to Worker 58
+[2019-07-23 20:32:20] INFO: Worker 47 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Worker 48 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 59 located in line 59 to Worker 59
+[2019-07-23 20:32:20] INFO: Allocating task 60 located in line 60 to Worker 60
+[2019-07-23 20:32:20] INFO: Allocating task 61 located in line 61 to Worker 61
+[2019-07-23 20:32:20] INFO: Allocating task 62 located in line 62 to Worker 62
+[2019-07-23 20:32:20] INFO: Allocating task 63 located in line 63 to Worker 63
+[2019-07-23 20:32:20] INFO: Allocating task 64 located in line 64 to Worker 64
+[2019-07-23 20:32:20] INFO: Allocating task 65 located in line 65 to Worker 65
+[2019-07-23 20:32:20] INFO: Allocating task 66 located in line 66 to Worker 66
+[2019-07-23 20:32:20] INFO: Allocating task 67 located in line 67 to Worker 67
+[2019-07-23 20:32:20] INFO: Allocating task 68 located in line 68 to Worker 68
+[2019-07-23 20:32:20] INFO: Allocating task 69 located in line 69 to Worker 69
+[2019-07-23 20:32:20] INFO: Worker 49 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Allocating task 70 located in line 70 to Worker 70
+[2019-07-23 20:32:20] INFO: Worker 68 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 31 on node s10r2b22
+[2019-07-23 20:32:20] INFO: Allocating task 71 located in line 71 to Worker 71
+[2019-07-23 20:32:20] INFO: Allocating task 72 located in line 72 to Worker 72
+[2019-07-23 20:32:20] INFO: Allocating task 73 located in line 73 to Worker 73
+[2019-07-23 20:32:20] INFO: Allocating task 74 located in line 74 to Worker 74
+[2019-07-23 20:32:20] INFO: Allocating task 75 located in line 75 to Worker 75
+[2019-07-23 20:32:20] INFO: Allocating task 76 located in line 76 to Worker 76
+[2019-07-23 20:32:20] INFO: Allocating task 77 located in line 77 to Worker 77
+[2019-07-23 20:32:20] INFO: Allocating task 78 located in line 78 to Worker 78
+[2019-07-23 20:32:20] INFO: Allocating task 79 located in line 79 to Worker 79
+[2019-07-23 20:32:20] INFO: Allocating task 80 located in line 80 to Worker 80
+[2019-07-23 20:32:20] INFO: Allocating task 81 located in line 81 to Worker 81
+[2019-07-23 20:32:20] INFO: Allocating task 82 located in line 82 to Worker 82
+[2019-07-23 20:32:20] INFO: Allocating task 83 located in line 83 to Worker 83
+[2019-07-23 20:32:20] INFO: Allocating task 84 located in line 84 to Worker 84
+[2019-07-23 20:32:20] INFO: Allocating task 85 located in line 85 to Worker 85
+[2019-07-23 20:32:20] INFO: Allocating task 86 located in line 86 to Worker 86
+[2019-07-23 20:32:20] INFO: Allocating task 87 located in line 87 to Worker 87
+[2019-07-23 20:32:20] INFO: Allocating task 88 located in line 88 to Worker 88
+[2019-07-23 20:32:20] INFO: Allocating task 89 located in line 89 to Worker 89
+[2019-07-23 20:32:20] INFO: Allocating task 90 located in line 90 to Worker 90
+[2019-07-23 20:32:20] INFO: Worker 59 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Allocating task 91 located in line 91 to Worker 91
+[2019-07-23 20:32:20] INFO: Worker 78 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 73 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 80 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 85 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 57 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 75 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 54 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 69 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 65 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 67 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 61 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 58 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 52 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 60 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 51 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 55 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 71 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 62 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 70 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 76 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 74 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 63 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 88 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 77 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 87 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 86 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 79 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 83 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 84 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 89 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 53 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 90 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 72 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 66 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 81 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 82 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 56 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 50 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 91 on node s10r2b23
+[2019-07-23 20:32:20] INFO: Worker 64 on node s10r2b23
+[2019-07-23 20:32:27] INFO: Task 1 located in line 1 completed successfully on node s10r2b22. Elapsed: 00:00:06
+[2019-07-23 20:32:56] INFO: Task 53 located in line 53 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 80 located in line 80 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 60 located in line 60 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 78 located in line 78 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 70 located in line 70 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 77 located in line 77 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 51 located in line 51 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 62 located in line 62 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 82 located in line 82 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 76 located in line 76 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 74 located in line 74 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 50 located in line 50 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 68 located in line 68 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 54 located in line 54 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 72 located in line 72 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 58 located in line 58 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 56 located in line 56 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 75 located in line 75 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 64 located in line 64 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 81 located in line 81 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 73 located in line 73 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 79 located in line 79 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 67 located in line 67 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 57 located in line 57 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 61 located in line 61 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 83 located in line 83 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 49 located in line 49 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 63 located in line 63 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 59 located in line 59 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 65 located in line 65 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 52 located in line 52 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 71 located in line 71 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 66 located in line 66 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 55 located in line 55 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:56] INFO: Task 69 located in line 69 completed successfully on node s10r2b23. Elapsed: 00:00:35
+[2019-07-23 20:32:57] INFO: Task 11 located in line 11 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 5 located in line 5 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 32 located in line 32 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 27 located in line 27 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 4 located in line 4 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 15 located in line 15 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 34 located in line 34 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 13 located in line 13 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 25 located in line 25 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 40 located in line 40 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 19 located in line 19 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 18 located in line 18 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 20 located in line 20 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 45 located in line 45 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 21 located in line 21 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 35 located in line 35 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 29 located in line 29 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 17 located in line 17 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 43 located in line 43 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 28 located in line 28 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 36 located in line 36 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 16 located in line 16 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 48 located in line 48 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 39 located in line 39 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 14 located in line 14 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 41 located in line 41 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 38 located in line 38 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 47 located in line 47 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 24 located in line 24 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 10 located in line 10 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 9 located in line 9 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 30 located in line 30 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 8 located in line 8 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 6 located in line 6 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 12 located in line 12 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 26 located in line 26 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 23 located in line 23 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 46 located in line 46 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 22 located in line 22 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 44 located in line 44 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 42 located in line 42 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 31 located in line 31 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 7 located in line 7 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 33 located in line 33 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 20:32:57] INFO: Task 37 located in line 37 completed successfully on node s10r2b22. Elapsed: 00:00:36
+[2019-07-23 21:26:05] INFO: Task 2 located in line 2 completed successfully on node s10r2b22. Elapsed: 00:53:44
+[2019-07-23 22:30:34] INFO: Task 90 located in line 90 completed successfully on node s10r2b23. Elapsed: 01:58:13
+[2019-07-23 22:57:27] INFO: Task 88 located in line 88 completed successfully on node s10r2b23. Elapsed: 02:25:06
+[2019-07-24 00:00:55] INFO: Task 89 located in line 89 completed successfully on node s10r2b23. Elapsed: 03:28:34
+[2019-07-24 02:05:05] INFO: Task 86 located in line 86 completed successfully on node s10r2b23. Elapsed: 05:32:44
+[2019-07-24 02:12:22] INFO: Task 87 located in line 87 completed successfully on node s10r2b23. Elapsed: 05:40:01
+[2019-07-24 02:20:24] INFO: Task 85 located in line 85 completed successfully on node s10r2b23. Elapsed: 05:48:03
+[2019-07-24 03:07:34] INFO: Task 91 located in line 91 completed successfully on node s10r2b23. Elapsed: 06:35:13
+[2019-07-24 13:47:54] INFO: Task 84 located in line 84 completed successfully on node s10r2b23. Elapsed: 17:15:33
+[2019-07-24 15:56:00] INFO: Task 3 located in line 3 completed successfully on node s10r2b22. Elapsed: 19:23:39
+[2019-07-24 15:56:00] INFO: MPI engine finished
+[2019-07-24 15:56:00] INFO: Summary of 91 tasks: 91 OK, 0 FAILED, 0 CANCELLED, 0 INVALID.
+[2019-07-24 15:56:00] INFO: Total time: 19:23:39
+[2019-07-24 15:56:00] INFO: Resource Utilization: 3.74%
+[2019-07-24 15:56:00] Finished greasing /gpfs/projects/bsc40/uchorostecki/software/MultiFolds/c_glabrata_2015-01-09.genes.txt

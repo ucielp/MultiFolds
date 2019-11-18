@@ -1,0 +1,117 @@
+mkdir: cannot create directory ‘372_BRAVEHEART_37_180_60/’: File exists
+mkdir: cannot create directory ‘372_BRAVEHEART_37_180_60/seq/’: File exists
+mkdir: cannot create directory ‘372_BRAVEHEART_37_180_60/tab’: File exists
+mkdir: cannot create directory ‘372_BRAVEHEART_37_180_60/res’: File exist
+real	0m0.214s
+user	0m0.119s
+sys	0m0.062s
+
+real	0m6.341s
+user	0m6.114s
+sys	0m0.052s
+real	0m19.819s
+user	0m13.650s
+sys	0m2.167s
+
+real	0m0.1Error in read.table(filename, header = FALSE, nrows = no_nucl, skip = (i -
+real	0m2.011s
+user	0m1.183s
+sys	0m0.597s
+Read 1 item
+
+real	44m46.974s
+user	44m21.694s
+sys	0m14.253s
+
+real	0m3.091s
+user	0m2.935s
+sys	0m0.024s
+
+real	0m1.336s
+user	0m0.858s
+sys	0m0.473s
+Read 1 item
+
+real	43m38.133s
+user	43m16.199s
+sys	0m14.387s
+
+real	0m26.246s
+user	0m25.931s
+sys	0m0.032s
+
+real	0m1.609s
+user	0m1.093s
+sys	0m0.511s
+Read 1 item
+
+real	44m44.364s
+user	44m18.421s
+sys	0m14.202s
+
+real	0m4.655s
+user	0m4.260s
+sys	0m0.055s
+
+real	0m1.090s
+user	0m0.465s
+sys	0m0.473s
+Read 1 item
+
+real	43m18.698s
+user	42m51.660s
+sys	0m15.199s
+
+real	0m14.960s
+user	0m14.320s
+sys	0m0.044s
+
+real	0m1.406s
+user	0m0.770s
+sys	0m0.463s
+Read 1 item
+
+real	45m28.232s
+user	44m32.272s
+sys	0m14.328s
+
+real	0m9.286s
+user	0m9.179s
+sys	0m0.040s
+
+real	0m2.377s
+user	0m1.768s
+sys	0m0.491s
+Read 1 item
+
+real	34m56.303s
+user	34m6.173s
+sys	0m10.764s
+
+real	0m4.977s
+user	0m4.782s
+sys	0m0.048s
+
+real	0m1.178s
+user	0m0.536s
+sys	0m0.470s
+Read 1 item
+
+real	45m56.658s
+user	45m10.440s
+sys	0m14.988s
+
+real	0m6.211s
+user	0m6.109s
+sys	0m0.044s
+
+real	0m1.556s
+user	0m1.047s
+sys	0m0.462s
+Read 1 item
+
+real	44m50.982s
+user	44m8.344s
+sys	0m14.827s
+45m16.333s
+sys	0m14.467s
