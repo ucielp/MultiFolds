@@ -20,7 +20,7 @@ myPATH=$mainPATH/projects/MULTI-FOLDS/multiple_conformations/$temp'_degrees'
 cd $myPATH
 
 dir_name=$mol_name"_"$temp"_"$window"_"$step
-mkdir $dir_name/; mkdir $dir_name/seq/; mkdir $dir_name/tab; mkdir $dir_name/res; mkdir $dir_name/final
+mkdir -p $dir_name/; mkdir -p $dir_name/seq/; mkdir -p $dir_name/tab; mkdir -p $dir_name/res; mkdir -p $dir_name/final
 
 fasta_file='C_parapsilosis_plus_individual_genes.fa'
 
@@ -45,11 +45,21 @@ pwd
 
 i=1
 for tab_file_name in $(ls *temp); do 
+# HACK modify tab by temp
+# for tab_file_name in $(ls *tab); do 
 	if [[ $tab_file_name == *"V1"* ]]; then
-		grep $mol_name $tab_file_name > $myPATH/$dir_name/tab/$i'-'$temp'_V1.tab'
+		# TODO: Check this
+		#~ grep $mol_name $tab_file_name > $myPATH/$dir_name/tab/$i'-'$temp'_V1.tab'
+		new_mol=$mol_name"\t"
+		grep -P $new_mol $tab_file_name > $myPATH/$dir_name/tab/$i'-'$temp'_V1.tab'
+		
 		((i=i+1))
 	elif [[ $tab_file_name == *"S1"* ]]; then
-		grep $mol_name $tab_file_name > $myPATH/$dir_name/tab/$i'-'$temp'_S1.tab'
+		# TODO: Check this
+		# grep $mol_name $tab_file_name > $myPATH/$dir_name/tab/$i'-'$temp'_S1.tab'
+		new_mol=$mol_name"\t"
+		grep -P $new_mol $tab_file_name > $myPATH/$dir_name/tab/$i'-'$temp'_S1.tab'
+		
 		((i=i+1))
 	fi
 done; 
@@ -187,6 +197,10 @@ for ct_file in $(ls $myPATH/$dir_name/final/*.ct ); do
 	path=$(dirname "${ct_file}")
 	filename=$(basename $ct_file .ct)
 
-	./ct2dot $path/$filename.ct 1 $path/$filename.bracket
+	# TODO: Check this
+	for ct_file in $(ls $myPATH/$dir_name/final/*centroid*.ct ); do
+		# for ct_file in $(ls $myPATH/$dir_name/final/*.ct ); do
+		./ct2dot $path/$filename.ct 1 $path/$filename.bracket
+	done
 
 done

@@ -76,11 +76,11 @@ cd $programPATH/nextPARS_docker/bin
 
 #~ # Check 
 #~ # sudo python2.7 -m pip install argparse numpy biopython datetime pysam termcolor pandas keras tensorflow dask h5py
-#~ time python  get_combined_score.py \
-	#~ -i $mol_name \
-	#~ -inDir $myPATH/$dir_name/tab \
-	#~ -f $myPATH/$dir_name/seq/$mol_name.fa \
-	#~ --nP_only $myPATH/$dir_name/res/$mol_name.RNN_NP_ONLY.csv 
+time python  get_combined_score.py \
+	-i $mol_name \
+	-inDir $myPATH/$dir_name/tab \
+	-f $myPATH/$dir_name/seq/$mol_name.fa \
+	--nP_only $myPATH/$dir_name/res/$mol_name.RNN_NP_ONLY.csv 
 
 
 # En el mismo directorio donde tengo esto *.RNN_NP_ONLY.csv muevo el que no tiene el clasificador (para tenerlo a mano)

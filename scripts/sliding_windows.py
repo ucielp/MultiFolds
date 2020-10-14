@@ -15,7 +15,9 @@ def slidingWindow(sequence,winSize,stepSize):
 	# if winSize > len(sequence):
 		# raise Exception("**ERROR** winSize must not be larger than sequence length.")
  
-	numOfPieces = ((len(sequence)-winSize)//stepSize)+1
+	# HACK
+	# numOfPieces = ((len(sequence)-winSize)//stepSize)+1
+	numOfPieces = max (((len(sequence)-winSize)//stepSize)+1,0)
 	# Do the work
 	for i in range(0,numOfPieces*stepSize+1,stepSize):
 		if i+winSize > len(sequence):

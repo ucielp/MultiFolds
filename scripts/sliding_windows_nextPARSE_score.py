@@ -14,8 +14,10 @@ def slidingWindow(sequence,winSize,stepSize):
 		raise Exception("**ERROR** stepSize must not be larger than winSize.")
 	 # if winSize > len(sequence):
 		# raise Exception("**ERROR** winSize must not be larger than sequence length.")
- 
-	numOfPieces = ((len(sequence)-winSize)//stepSize)+1
+
+	# HACK
+	# numOfPieces = ((len(sequence)-winSize)//stepSize)+1
+	numOfPieces = max (((len(sequence)-winSize)//stepSize)+1,0)
 	# Do the work
 	for i in range(0,numOfPieces*stepSize+1,stepSize):
 		if i+winSize > len(sequence):
@@ -26,13 +28,15 @@ def slidingWindow(sequence,winSize,stepSize):
 
 
 def process_tab(tab_file,window,step):
-	df = read_csv(tab_file,header=None,delimiter='\t',names = ['name', 'data'])
-	for index, row in df.iterrows():
-		name = row['name']
-		scores = row['data'].split(";")[:-1]
+	df = read_csv(tab_file,header=None,delimiter=';')
+	df = df[df.columns[:-1]]
+	for row in df.iterrows():
+		name = row[1][0]
+		scores_ints = (row[1][1:]).tolist()
+		scores = [str(int) for int in scores_ints]
 
 		mygenerator = slidingWindow(scores,window,step)
-		
+			
 		out_file = name  + '.score.outfile'
 
 		with open(out_file,"w") as f:

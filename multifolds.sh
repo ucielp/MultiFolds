@@ -7,7 +7,7 @@ if [ $# -gt 2 ]; then
 	step=$4
 else
 	echo "Please include molecule name, temperature, window size and step size
-/multifolds.sh ROX2 23 180 60 > ROX2_23_180_60.out 2> ROX2_180_60.error"
+./multifolds.sh ROX2 23 180 60 > ROX2_23_180_60.out 2> ROX2_180_60.error"
 	exit 1
 fi
 
@@ -45,10 +45,16 @@ pwd
 
 i=1
 for tab_file_name in $(ls *temp); do 
+# HACK modify tab by temp
+# for tab_file_name in $(ls *tab); do 
 	if [[ $tab_file_name == *"V1"* ]]; then
+		# TODO: Check this
+		# grep -P '$mol_name\t' $tab_file_name > $myPATH/$dir_name/tab/$i'-'$temp'_V1.tab'
 		grep $mol_name $tab_file_name > $myPATH/$dir_name/tab/$i'-'$temp'_V1.tab'
 		((i=i+1))
 	elif [[ $tab_file_name == *"S1"* ]]; then
+		# TODO: Check this
+		# grep -P '$mol_name\t' $tab_file_name > $myPATH/$dir_name/tab/$i'-'$temp'_S1.tab'
 		grep $mol_name $tab_file_name > $myPATH/$dir_name/tab/$i'-'$temp'_S1.tab'
 		((i=i+1))
 	fi
@@ -83,6 +89,8 @@ time python  get_combined_score.py \
 	-f $myPATH/$dir_name/seq/$mol_name.fa \
 	--nP_only $myPATH/$dir_name/res/$mol_name.RNN_NP_ONLY.csv 
 
+
+# TODO: Debería hacer toda la estategia con el clasificador?
 
 # En el mismo directorio donde tengo esto *.RNN_NP_ONLY.csv muevo el que no tiene el clasificador (para tenerlo a mano)
 mv $programPATH/nextPARS/bin/$mol_name.RNN.tab $myPATH/$dir_name/res/$mol_name.RNN.tab
@@ -183,7 +191,9 @@ for shape_file in $(ls $myPATH/$dir_name/final/*SHAPE ); do
 done;
 
 cd $programPATH/RNAstructure/exe
-for ct_file in $(ls $myPATH/$dir_name/final/*.ct ); do
+# TODO: Check this
+for ct_file in $(ls $myPATH/$dir_name/final/*centroid*.ct ); do
+# for ct_file in $(ls $myPATH/$dir_name/final/*.ct ); do
 	
 	ct_f=$(basename -- "$ct_file")
 	path=$(dirname "${ct_file}")
