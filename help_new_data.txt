@@ -1,0 +1,45 @@
+ssh bsc40194@mn1.bsc.es
+cd /gpfs/projects/bsc40/uchorostecki/software/MultiFolds
+# sbatch job_script_greasy.sh
+
+generate_greasy_jobs.sh 
+
+# Modify 
+multifolds_cluster_new_data.sh 
+# Se agrega como ultimo argumento la especie, ex albicans
+# Ex
+# ./multifolds_cluster_new_data.sh NRU_1 23 180 60 albicans
+
+# TEST IT
+ssh bsc40194@mn1.bsc.es
+salloc -p interactive
+cd /gpfs/projects/bsc40/uchorostecki/software/MultiFolds
+module load gcc/7.2.0 impi/2018.0 mkl/2018.0 python/2.7.14 R/3.5.1
+# Lo hice a mano estos tres
+./multifolds_cluster_new_data.sh NRU_6 23 180 60 albicans > NRU_6_23_180_60.out 2> NRU_6_23_180_60.error
+./multifolds_cluster_new_data.sh NRU_6 37 180 60 albicans > NRU_6_37_180_60.out 2> NRU_6_37_180_60.error
+./multifolds_cluster_new_data.sh NRU_6 55 180 60 albicans > NRU_6_55_180_60.out 2> NRU_6_55_180_60.error
+
+
+# Local
+# Modificando cada vez el file job_script_greasy.sh
+
+cd /home/uchorostecki/lab/uchorostecki/software/MultiFolds/scripts 
+# Modify generate_greasy_jobs_new_data.sh
+geany generate_greasy_jobs_new_data.sh 
+
+# execute
+./generate_greasy_jobs_new_data.sh albicans.genes.09102020 albicans
+# Se genera en jobs/ y tengo que moverlo
+mv ../jobs/albicans.genes.09102020.greasy ../.
+
+
+# Execute it
+ssh bsc40194@mn1.bsc.es
+cd /gpfs/projects/bsc40/uchorostecki/software/MultiFolds
+
+sbatch job_script_greasy.sh
+
+
+# Y modificar # job_script_greasy.sh -> temperatures.genes.03072020_to_fix.greasy
+
